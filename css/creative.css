@@ -71,6 +71,7 @@ aside {
 .no-padding {
     padding: 0;
 }
+
 /*Navbar inverse styling*/
 
 
@@ -130,90 +131,8 @@ aside {
   color: #fff;
   background-color: #080808;
 }
-@media (max-width: 767px) {
-  .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #080808;
-  }
-  .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #080808;
-  }
-  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #9d9d9d;
-  }
-  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #fff;
-    background-color: transparent;
-  }
-  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #fff;
-    background-color: #080808;
-  }
-  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
-  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
-  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-    color: #444;
-    background-color: transparent;
-  }
-}
 
 /*Navbar inverse styling end*/
-
-
-
-*/
-@media(min-width:768px) {
-    .navbar-default {
-        border-color: rgba(255,255,255,.3);
-        background-color: transparent;
-    }
-
-    .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255);
-    }
-
-    .navbar-default .navbar-header .navbar-brand:hover,
-    .navbar-default .navbar-header .navbar-brand:focus {
-        color: #1E90FF;
-    }
-
-    .navbar-default .nav > li>a,
-    .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
-    }
-
-    .navbar-default .nav > li>a:hover,
-    .navbar-default .nav>li>a:focus:hover {
-        color: #1E90FF;
-    }
-
-    .navbar-default.affix {
-        border-color: rgba(34,34,34,.05);
-        background-color: yellow;
-    }
-
-    .navbar-default.affix .navbar-header .navbar-brand {
-        font-size: 14px;
-        color: #f05f40;
-    }
-
-    .navbar-default.affix .navbar-header .navbar-brand:hover,
-    .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #1E90FF;
-    }
-
-    .navbar-default.affix .nav > li>a,
-    .navbar-default.affix .nav>li>a:focus {
-        color: #1E90FF ;
-    }
-
-    .navbar-default.affix .nav > li>a:hover,
-    .navbar-default.affix .nav>li>a:focus:hover {
-        color: #f05f40;
-    }
-}
 
 .header {
     position: relative;
@@ -262,7 +181,7 @@ margin-top: 0px;
 }
  .slogan-content #slogan {
     position: absolute;
-    width: 1000px;
+    max-width: 1000px;
     height:70px;
     margin: 0px 450px;
     color: blue;
@@ -275,24 +194,36 @@ margin-top: 0px;
 }
 
 .header .flexslider {
-     width: 100%;
-     height: 230px;
+     max-width: 100%;
+     height: 250px;
      margin-top: 150px;
-
-
     }
+
+.header .flexslider .slides .text-slider {
+    max-width: 100%;
+    margin: 0px;
+    font-size: 100px;
+    line-height: 250px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 .section-heading {
     margin-top: 0;
-    font-size: 50px !important;
+    font-size: 50px;
 }
 
 .service-box {
     margin: 50px auto 0;
     max-width: 400px;
     height: 500px;
-    border: 2px solid #f0f0f0;
+    border: 10px solid #B0E0E6;
     background-color: #ffffff;
+    -webkit-animation-duration: 3s !important;
+  -webkit-animation-delay: .1s;
+  -webkit-animation-iteration-count: 1;
 }
 
 @media(min-width:992px) {
@@ -535,6 +466,7 @@ background-size: 1903px 854px;
     font-size: 25px !important;
 }
 .service-box-content {
+    margin-top: 50px;
     font-size: 20px;
     font-weight: bold;
     color: #B22222;
@@ -543,7 +475,7 @@ background-size: 1903px 854px;
 .service-box ul {
     list-style: none;
     padding: 0px;
-    margin: 20px;
+    margin: 70px;
 }
 
 .service-box ul li {
@@ -552,7 +484,7 @@ background-size: 1903px 854px;
     padding-bottom: 7px;
     border-bottom: 1px dashed #e0e0e0;
     }
-    .service-box:hover {
+    .service-box:hover { 
         color: white;
         background-color: #1E90FF;
     }
@@ -592,15 +524,22 @@ background-size: 1903px 854px;
 
        margin-top: 10px;
        font-family: 'Radley', serif;
-       font-size: 20px;
 
     }
+
+   .copyright .copyright-text {
+     font-size: 20px;
+
+
+   }
+
     .social-media-icons {
         display: inline;
         float: right;
         margin-top: 10px;
     }
     .social-media-icons p {
+        font-size: 20px;
         float: left;
         font-family: 'Radley', serif;
     }

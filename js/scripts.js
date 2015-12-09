@@ -45,8 +45,15 @@
     
     });
 
+// wow animation for scrolling
+
+new WOW().init();
+
+
 });
 
+
+            
 
 // animsition/Home Page rotation
 
