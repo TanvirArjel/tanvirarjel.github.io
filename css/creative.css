@@ -494,11 +494,18 @@ background-size: 1903px 854px;
     }
     .service-title {
         color: white;
+        -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1s;
     }
     .contact {
-        color: #E62E00;
+        max-width: 100%;
+        height: 550px;
+        color: #FFFFF0;
         background-image: url(../img/ikon-contact.jpg);
-        background-size: 1903px 491px;
+        /*background-size: 1903px 527px;*/
+        background-size: cover;
+        z-index: -1;
+        text-align: center;
     }
     a:link {
         text-decoration: none;
@@ -553,3 +560,14 @@ background-size: 1903px 854px;
     padding: 0px 5px;
     
    }
+  .contact-section {
+    font-family: Radley;
+    font-size: 60px;
+    text-align: center;
+  }
+  .contact-container {
+   max-width: 1200px;
+   height: 424px;
+   margin: 0px auto;
+   padding: 20px;
+  }
