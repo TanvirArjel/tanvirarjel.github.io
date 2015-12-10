@@ -231,9 +231,9 @@ margin-top: 0px;
     height: 500px;
     border: 10px solid #B0E0E6;
     background-color: #ffffff;
-    -webkit-animation-duration: 3s !important;
+    /*-webkit-animation-duration: 2s !important;
   -webkit-animation-delay: .1s;
-  -webkit-animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;*/
 }
 
 @media(min-width:992px) {
@@ -515,8 +515,8 @@ background-size: 1903px 854px;
         font-size: 30px !important;
         color: white;
         text-shadow: 2px 2px 4px white;
-        -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 1s;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-delay: .1s;
     }
     .contact {
         max-width: 100%;

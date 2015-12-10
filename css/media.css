@@ -155,7 +155,7 @@
     .social-media-icons ul{
 
         width: 100%;
-        margin-left: 45px;
+        margin-left: 0px;
     }
 
     .social-media-icons li{
@@ -183,14 +183,23 @@ height:360px;
 }
 
 .section-heading {
-    margin-top: -10px;
+    margin-top: -63px;
     font-size: 25px;
 }
 .text-faded {
     font-size: 15px;
 
 }
+.about-button {
+  font-size: 15px !important;
+}
+.service-title {
+  width: 100%;
+  margin: 0px auto;
+  font-size: 20px !important;
 
+
+}
 .contact {
   width: 100%;
   height:320px;
