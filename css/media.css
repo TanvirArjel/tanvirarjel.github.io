@@ -28,8 +28,6 @@
     	margin-left: 5px;
     	margin-top: 20px;
     	font-size: 20px;
-
-
     }
 
     .header .flexslider {
@@ -45,6 +43,8 @@
    padding: 0px;
 
    }
+
+ 
 
 }
 
@@ -139,11 +139,13 @@
 
    .copyright {
    width: 100%;
-   margin-top: 20px;
+   margin-top: 10px auto;
    padding: auto;
    }
    .copyright .copyright-text {
+    text-align: center;
     font-size: 15px;
+
 
    }
     .social-media-icons {
@@ -153,7 +155,7 @@
     .social-media-icons ul{
 
         width: 100%;
-        margin-left: 0px;
+        margin-left: 45px;
     }
 
     .social-media-icons li{
@@ -189,7 +191,28 @@ height:360px;
 
 }
 
+.contact {
+  width: 100%;
+  height:320px;
 }
 
+.contact-section {
+  width: 100%;
+  margin-top: -50px;
+  font-size: 25px;
+}
+.contact-content {
+  font-size: 18px;
+}
+.contact-number {
+
+font-size: 18px;
+}
+.contact-email {
+font-size: 18px;
+
+}
+
+}
 
 
