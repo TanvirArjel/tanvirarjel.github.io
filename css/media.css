@@ -1,8 +1,9 @@
 @media only screen and (max-width: 768px) {
 
     .header {
+      margin-top: 50px;
      	width: 100%;
-     	height: 400px;
+     	height: 420px;
         background-color: black;
     }
 
@@ -39,7 +40,7 @@
    .header .flexslider .slides .text-slider {
 
    font-size: 20px;
-   margin-top: -75px;
+   margin-top: 0px;
    padding: 0px;
 
    }
@@ -202,7 +203,7 @@ height:360px;
 }
 .contact {
   width: 100%;
-  height:320px;
+  height:410px;
 }
 
 .contact-section {
@@ -221,6 +222,15 @@ font-size: 18px;
 font-size: 18px;
 
 }
+.call-to-connection {
+    text-align: center;
+    max-width: 150px;
+    padding: .4vw;
+border: 2px solid white;
+font-family: Ramaraja;
+font-size: 1.3vw;
+text-shadow: 1px 1px 4px white;
+  }
 
 }
 
