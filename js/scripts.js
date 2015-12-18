@@ -57,7 +57,21 @@ $(window).load(function () {
             // Animate loader off screen
             $(".se-pre-con").fadeOut("slow");
         });
-            
+
+$(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 600) {
+                    $('#scroll_top').fadeIn();
+                } else {
+                    $('#scroll_top').fadeOut();
+                }
+            });
+            $("a.scrollup").click(function () {
+                $("html, body").animate({scrollTop: 0}, "slow");
+                return false;
+            });
+
+        });
 
 // animsition/Home Page rotation
 
