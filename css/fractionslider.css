@@ -48,12 +48,12 @@
 	z-index:9999;
 }
 
-.fraction-slider .prev{
+.fraction-slider .prev {
 	left:10px; top:48%;
 	background:url(images/fs.prevnext.png) 0px 0px no-repeat transparent;
 	
 }
-.fraction-slider .prev:hover{
+.fraction-slider .prev:hover {
 	background:url(images/fs.prevnext.png) 0px -45px no-repeat transparent;
 }
 
@@ -72,17 +72,19 @@
 
 /** PAGER **/
 
-.fs-pager-wrapper{
+.fs-pager-wrapper {
 	position:absolute;
-	left:10px; bottom:10px;
-	z-index:9999;	
+	left:43vw; 
+	bottom:10px;
+	z-index:9999;
+	vertical-align: middle;	
 }
 
 .fs-pager-wrapper a,
 .fs-custom-pager-wrapper a{
 	display:inline-block;
 	width:14px; height:14px;
-	margin:0 5px 0 0;
+	/*margin:0 5px 0 0;*/
 	background:url(images/fs.pager.png) 0px -14px no-repeat transparent;
 }
 .fs-pager-wrapper .active,

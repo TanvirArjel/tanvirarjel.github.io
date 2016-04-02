@@ -1,8 +1,7 @@
-body{
+body {
 	position:relative;
 	
 	font-family:Arial, Sans-Serif;
-	font-weight: 200;
 	-webkit-font-kerning: auto;
 	-webkit-font-smoothing: antialiased;
 	overflow-x: hidden;
@@ -41,37 +40,36 @@ body{
 
 @media only screen and (min-width: 1440px){
 	.slider{
+		width:1440px;
+	}
+}
+
+@media only screen and (min-width: 1920px){
+	.slider{
 		width:1640px;
 	}
 }
 
 /* ELEMENT STYLES */
 
-p{
-	position:absolute;
-	top:-200px;
-	
-	z-index:8000;
-	padding:1% 3%;
-	
-	font-size:24px;
-	line-height:100%
-	color:#fff;
-	white-space: nowrap;
-	text-transform:uppercase;
-}
 
-.claim{
-	line-height:100%
+
+.claim {
+	line-height:100%;
+	padding:1% 3%;
 }	
 
-.teaser{
-	padding:0.5% 1.5%;
-	font-size:14px;
-	 line-height:100%
+.teaser {
+
+	position: absolute;
+	padding: 1% 3%;
+	font-size:24px !important;
+	line-height:100%;
+	font-family: 'Josefin Slab', serif;
+	white-space: nowrap; 
 }
 
-.small{
+.small {
 	width:250px;
    padding-left:0; padding-right:0px;
 	text-align:center;
@@ -89,11 +87,13 @@ p{
 
 }
 .orange{
-	background:#EF7D00
+	background:#EF7D00;
+	color: #fff;
 }
 .turky{
-	background:#348E8A
+	background:#348E8A;
+	color: #fff;
 }
-.white{
+/*.white{
 	background:#fff; color:#333
-}
+}*/
