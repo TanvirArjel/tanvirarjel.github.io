@@ -18,7 +18,8 @@
 .fraction-slider .fs_obj{
 	display:block; display:none;
 	position:absolute;
-	top:0px; left:100%;
+	margin: 0px auto;
+	left:100%;
 	z-index:7000;
 }
 
@@ -84,7 +85,7 @@
 .fs-custom-pager-wrapper a{
 	display:inline-block;
 	width:14px; height:14px;
-	/*margin:0 5px 0 0;*/
+	margin:0 5px 0 0;
 	background:url(images/fs.pager.png) 0px -14px no-repeat transparent;
 }
 .fs-pager-wrapper .active,
