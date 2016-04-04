@@ -141,26 +141,30 @@ h1, h2, h3, h4, h5, h6, p {
 .meter > .item {
     display: block;
     height: 100%;
-    /*-webkit-border-top-right-radius: 8px;*/
-    /*-webkit-border-bottom-right-radius: 8px;*/
-    /*-moz-border-radius-topright: 8px;*/
-    /*-moz-border-radius-bottomright: 8px;*/
-    /*border-top-right-radius: 8px;*/
-    /*border-bottom-right-radius: 8px;*/
-    /*-webkit-border-top-left-radius: 20px;
-    -webkit-border-bottom-left-radius: 20px;
-    -moz-border-radius-topleft: 20px;
-    -moz-border-radius-bottomleft: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;*/
-    background-color: yellow;
+    
+    background: rgb(136, 205, 42);
+    position: absolute;
+    overflow: hidden;
+}
+
+.meter > .item2 {
+    display: block;
+    height: 100%;
+    
+    background: rgb(0, 168, 255);
     position: absolute;
     overflow: hidden;
 }
 
 .item {
-	padding: 15px 0px;
-	text-align: left;
+	padding: 10px 0px;
+	font-size: 20px;
+	/*text-align: left;*/
 
+}
+
+.expertise-image-container {
+
+	margin: 70px auto;
 }
 

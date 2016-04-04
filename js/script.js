@@ -1,18 +1,18 @@
 $(function() {
     
-    var $meters = $(".meter > span");
+    var $meters = $(".meter > .item, .item2");
     var $section = $('#third');
     var $queue = $({});
     
     function loadDaBars() {
-        $meters.each(function() {
-            var $el = $(this);
-            var origWidth = $el.width();
-            $el.width(0);
-            $queue.queue(function(next) {
-                $el.animate({width: origWidth}, 1200, next);
-            });
-        });
+                $(".meter > .item, .item2 ").each(function() {
+                    $(this)
+                        .data("origWidth", $(this).width())
+                        .width(0)
+                        .animate({
+                            width: $(this).data("origWidth")
+                        }, 1200);
+                });
     }
     
     $(document).bind('scroll', function(ev) {
