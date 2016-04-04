@@ -682,7 +682,7 @@
 			var slide = temp.currentSlide, cssStart = {}, cssEnd = {}, speed = options.slideTransitionSpeed, animation = temp.animation;
 
 			if (options.responsive) {
-				unit = '%';
+				unit = 'px';
 			} else {
 				unit = 'px';
 			}
