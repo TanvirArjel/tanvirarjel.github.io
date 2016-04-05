@@ -1,10 +1,10 @@
 body {
-	position:relative;
+	/*position:relative;
 	
 	font-family:Arial, Sans-Serif;
-	/*-webkit-font-kerning: auto;*/
-	/*-webkit-font-smoothing: antialiased;*/
-	/*overflow-x: hidden;*/
+	-webkit-font-kerning: auto;
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;*/
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .about-me-header-text {
 	font-family: Times;
-	font-size: 2.4em;
+	font-size: 50px !important;
 }
 
 .about-me-content {
