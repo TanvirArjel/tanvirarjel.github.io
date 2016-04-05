@@ -124,47 +124,22 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 
-.meter { 
-    height: 50px; 
-    position: relative;
-    margin: 20px 0 20px 0;
-    background: #555;
-    /*-moz-border-radius: 25px;*/
-    /*-webkit-border-radius: 25px;*/
-    /*border-radius: 25px;*/
-    padding: 0px;
-    -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
-    -moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
-    box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
-}
+.circle span {
+	color: #fff;
 
-.meter > .item {
-    display: block;
-    height: 100%;
-    
-    background: rgb(136, 205, 42);
+
+	display: block;
     position: absolute;
-    overflow: hidden;
+    font-size: 50px;
+    height: 40px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -40px;
+    line-height: 40px;
 }
 
-.meter > .item2 {
-    display: block;
-    height: 100%;
-    
-    background: rgb(0, 168, 255);
-    position: absolute;
-    overflow: hidden;
-}
-
-.item {
-	padding: 10px 0px;
-	font-size: 20px;
-	/*text-align: left;*/
-
-}
-
-.expertise-image-container {
-
-	margin: 70px auto;
+.circle p {
+	color: #fff;
 }
 

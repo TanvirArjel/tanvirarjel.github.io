@@ -16,6 +16,8 @@
 		
 		<script src="js/jquery-2.2.2.min.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/circle-progress.js"></script>
+		<script type="text/javascript" src="js/jquery.appear.js"></script>
 		
 
 
@@ -211,41 +213,40 @@
 
 
 
-		<div class="container-fluid my-expertise-container text-center">
+		<div class="container-fluid my-expertise-container text-center" id="scroll">
 
 		  <div class="row col-lg-10 col-lg-offset-1">
 
 		  	 <div class="expertise-container col-lg-8 col-md-8 col-sm-12 col-xs-12">
 
-				     <div class="col-lg-12 col-md-12 col-sm-12 col-sx-12"><h1 class="my-expertise-header">My Expertise</h1></div>
+				   <div class="col-lg-12 col-md-12 col-sm-12 col-sx-12"><h1 class="my-expertise-header">My Expertise</h1>
+				     </div>
+
+				     <div class="circle col-lg-3"id="circle1">
+					     <span class="Count">90</span>
+					     <p>HTML</p>
+				     </div>
 
 
-						  	<!--  <p class="my-expertise-content"> Hello, I am tanvir Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque hic asperiores tempora velit explicabo, magni. Ab voluptate incidunt, ducimus alias quibusdam dolorum a consequuntur omnis. Facere deleniti, assumenda voluptates Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus impedit consequuntur adipisci excepturi quidem doloremque iusto odit, cumque voluptatum id. Dolores beatae quo vitae ipsum enim alias incidunt doloribus dolor!</p> -->
-	                <div class="col-lg-12 col-md-12 col-sm-12 col-sx-12" id="third">
-					  
-					  
-						<div class="meter">
-							<div class="item2 col-lg-12 col-md-12 col-sm-12 col-sx-12" style="width: 33.3%"><strong>HTML5</strong></div>
-						</div>
-								
-						<div class="meter">
-							<div class="item col-lg-12 col-md-12 col-sm-12 col-sx-12" style="width: 80%"><strong>CSS3</strong></div>
-						</div>
+				     <div class="circle col-lg-3"id="circle2">
+					     <span class="Count">90</span>
+					     <p>CSS</p>
+				     </div>
+				     
+				     <div class="circle col-lg-3"id="circle3">
+					     <span class="Count">90</span>
+					     <p>Bootstrap</p>
+				     </div>
 
-						<div class="meter">
-							<div class="item col-lg-12 col-md-12 col-sm-12 col-sx-12" style="width: 75%"><strong>Bootstrap</strong></div>
-						</div>
-								
-						<div class="meter">
-							<div class="item col-lg-12 col-md-12 col-sm-12 col-sx-12" style="width: 60%"><strong>Javascript</strong></div>
-						</div>
 
-						<div class="meter">
-							<div class="item col-lg-12 col-md-12 col-sm-12 col-sx-12" style="width: 65%"><strong>AngularJs</strong></div>
-						</div>
+				     <div class="circle col-lg-3"id="circle4">
+					     <span class="Count">50</span>
+					     <p>Javascript</p>
+				     </div>
 
-					
-			       </div>
+
+						  	
+						
 	            
            </div>
 
@@ -254,6 +255,8 @@
 		  	 </div>
 
 		     
+
+		</div>
 
 		</div>
 
@@ -270,6 +273,94 @@
             // Animate loader off screen
             $(".se-pre-con").fadeOut("slow");
         });
+
+</script>
+
+<script>
+    
+
+   
+    
+
+
+
+</script>
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+
+	$(window).scroll(function() {
+   var hT = $('#scroll').offset().top,
+       hH = $('#scroll').outerHeight(),
+       wH = $(window).height(),
+       wS = $(this).scrollTop();
+   if (wS > (hT+hH+-wH)){
+
+
+
+
+
+
+       $('#circle1').circleProgress({
+        value: 0.90,
+        size: 200,
+        fill: {
+            gradient: ["red", "orange"]
+        }
+    });
+
+
+       $('#circle2').circleProgress({
+        value: 0.90,
+        size: 200,
+        fill: {
+            gradient: ["#1C2D84", "orange"]
+        }
+    });
+     $('#circle3').circleProgress({
+        value: 0.90,
+        size: 200,
+        fill: {
+            gradient: ["#14D2D9", "orange"]
+        }
+    });
+
+      $('#circle4').circleProgress({
+        value: 0.50,
+        size: 200,
+        fill: {
+            gradient: ["#2AFF00", "orange"]
+        }
+    });
+
+
+
+      $('.Count').each(function () {
+  var $this = $(this);
+  jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
+    duration: 1000,
+    easing: 'swing',
+    step: function () {
+      $this.text(Math.ceil(this.Counter));
+    }
+  });
+}); 
+
+
+   }
+});
+        
+      
+        
+  });
+
+</script>
+
+
+
+
+
 
 </script>
 
