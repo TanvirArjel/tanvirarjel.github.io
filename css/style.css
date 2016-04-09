@@ -7,10 +7,17 @@ body {
 	overflow-x: hidden;*/
 }
 
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
 h1, h2, h3, h4, h5, h6, p {
 
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 /* SLIDER STYLES */
@@ -73,7 +80,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .about-me-header-text {
 	font-family: Times;
-	font-size: 50px !important;
+	font-size: 50px;
 }
 
 .about-me-content {
@@ -92,52 +99,25 @@ h1, h2, h3, h4, h5, h6, p {
 
 .my-expertise-container {
 	position: relative;
-	padding: 1%;
 	background-color: #1b1b1b;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .my-expertise-header {
+	padding: 2% 0px;
 	font-size: 55px;
 	font-family: Times;
 	text-transform: uppercase;
 	color: #B5B522;
 }
 
-.my-expertise-content {
-	/*font-family: 'Josefin Slab', serif;*/
-	font-family: arial;
-	font-size: 25px;
-	text-align: left;
-	color: #fff;
-}
+.all-circle-container {
 
-.img-responsive {
-	margin: 0px auto;
-}
-.expertise-container {
-	padding: 0% 0px;
+	padding: 2% 0px;
 }
 
 
-
-
-
-
-
-/*.circle span {
-	color: #fff;
-
-
-	display: block;
-    position: absolute;
-    font-size: 50px;
-    height: 40px;
-    top: 50%;
-    left: 0;
-    right: 0;
-    margin-top: -40px;
-    line-height: 40px;
-}*/
 
 .circle p {
 	color: #fff;
