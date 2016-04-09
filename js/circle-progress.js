@@ -58,7 +58,7 @@ License: MIT
          * Color of the "empty" arc. Only a color fill supported by now
          * @type {string}
          */
-        emptyFill: 'rgba(0, 0, 0, .1)',
+        emptyFill: 'rgba(255, 255, 255, .9)',
 
         /**
          * Animation config (see jQuery animations: http://api.jquery.com/animate/)

@@ -212,50 +212,70 @@
 
 
 
-	<div class="container-fluid my-expertise-container text-center" id="div4">
+	<div class="container-fluid my-expertise-container col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="div4">
 
-		  <div class="col-lg-10 col-lg-offset-1">
+		  <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
 
-		  	 <div class="container-fluid expertise-container">
 
 				   <div class="col-lg-12 col-md-12 col-sm-12 col-sx-12">
-				        <h1 class="my-expertise-header">My Expertise</h1>
+				        <h1 class="my-expertise-header">My Skills and Expertise</h1>
 
 				   </div>
 
 				   <div class="col-lg-12 col-md-12 col-sm-12 col-sx-12">
 
-				     <div class="circle col-lg-3"id="circle1">
+				     <div class="circle col-lg-3 col-md-3 col-sm-6 col-xs-12"id="circle1">
 					     <span class="timer count-title" id="count-number" data-to="90" data-speed="2500"></span>
 					     <p>HTML</p>
 				     </div>
 
 
-				     <div class="circle col-lg-3"id="circle2">
+				     <div class="circle col-lg-3 col-md-3 col-sm-6 col-xs-12"id="circle2">
 					     <span class="timer count-title" id="count-number" data-to="90" data-speed="2500"></span>
 					     <p>CSS</p>
 				     </div>
 				     
-				     <div class="circle col-lg-3"id="circle3">
+				     <div class="circle col-lg-3 col-md-3 col-sm-6 col-xs-12"id="circle3">
 					     <span class="timer count-title" id="count-number" data-to="90" data-speed="2500"></span>
 					     <p>Bootstrap</p>
 				     </div>
 
 
-				     <div class="circle col-lg-3"id="circle4">
-					     <span class="timer count-title" id="count-number" data-to="90" data-speed="2500"></span>
+				     <div class="circle col-lg-3 col-md-3 col-sm-6 col-xs-12"id="circle4">
+					     <span class="timer count-title" id="count-number" data-to="50" data-speed="2500"></span>
 					     <p>Javascript</p>
+				     </div>
+
+				   <!-- </div> -->
+
+
+				   <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-sx-12"> -->
+
+				     <div class="circle col-lg-3 col-md-3 col-sm-6 col-xs-12"id="circle5">
+					     <span class="timer count-title" id="count-number" data-to="50" data-speed="2500"></span>
+					     <p>Jquery</p>
+				     </div>
+
+
+				     <div class="circle col-lg-3 col-md-3 col-sm-6 col-xs-12"id="circle6">
+					     <span class="timer count-title" id="count-number" data-to="50" data-speed="2500"></span>
+					     <p>AngularJS</p>
+				     </div>
+				     
+				     <div class="circle col-lg-3 col-md-3 col-sm-6 col-xs-12"id="circle7">
+					     <span class="timer count-title" id="count-number" data-to="10" data-speed="2500"></span>
+					     <p>ASP.NET(Beginner)</p>
+				     </div>
+
+
+				     <div class="circle col-lg-3 col-md-3 col-sm-6 col-xs-12"id="circle8">
+					     <span class="timer count-title" id="count-number" data-to="10" data-speed="2500"></span>
+					     <p>C#(Beginner)</p>
 				     </div>
 
 				   </div>			
 	            
            </div>
-
-		  	<!--  <div class="expertise-image-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-		  	 	<img class="img-responsive" src="images/expertise.png">
-		  	 </div> -->     
-
-		</div>
 
 	</div>
 
@@ -318,6 +338,7 @@ $(window).scroll(function(){
 
                    $('#circle1').circleProgress({
 			        value: 0.90,
+			        thickness: 30,
 			        size: 200,
 			        fill: {
 			            gradient: ["red", "orange"]
@@ -327,6 +348,7 @@ $(window).scroll(function(){
 
 			       $('#circle2').circleProgress({
 			        value: 0.90,
+			        thickness: 30,
 			        size: 200,
 			        fill: {
 			            gradient: ["#1C2D84", "orange"]
@@ -336,6 +358,7 @@ $(window).scroll(function(){
 
 			     $('#circle3').circleProgress({
 			        value: 0.90,
+			        thickness: 30,
 			        size: 200,
 			        fill: {
 			            gradient: ["#14D2D9", "orange"]
@@ -345,9 +368,51 @@ $(window).scroll(function(){
 
 			      $('#circle4').circleProgress({
 			        value: 0.50,
+			        thickness: 30,
 			        size: 200,
 			        fill: {
 			            gradient: ["#2AFF00", "orange"]
+			        }
+			    });
+
+
+
+			      $('#circle5').circleProgress({
+			        value: 0.50,
+			        thickness: 30,
+			        size: 200,
+			        fill: {
+			            gradient: ["#274a60", "orange"]
+			        }
+			       });
+
+
+			       $('#circle6').circleProgress({
+			        value: 0.50,
+			        thickness: 30,
+			        size: 200,
+			        fill: {
+			            gradient: ["#1C2D84", "#05F9EB"]
+			        }
+			      });
+
+
+			     $('#circle7').circleProgress({
+			        value: 0.10,
+			        thickness: 30,
+			        size: 200,
+			        fill: {
+			            gradient: ["#14D930", "#0a0a0a"]
+			        }
+			    });
+
+
+			      $('#circle8').circleProgress({
+			        value: 0.10,
+			        thickness: 30,
+			        size: 200,
+			        fill: {
+			            gradient: ["#9F3F1D", "#D89925"]
 			        }
 			    });
               
