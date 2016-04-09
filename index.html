@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="css/normalize.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css" charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 
 
 		<link rel="stylesheet" href="css/fractionslider.css">
@@ -17,7 +18,6 @@
 		<script src="js/jquery-2.2.2.min.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" src="js/script.js"></script>
 		<script type="text/javascript" src="js/circle-progress.js"></script>
-		<script type="text/javascript" src="js/jquery.appear.js"></script>
 		
 
 
@@ -44,7 +44,7 @@
       <!--<i class="fa fa-refresh fa-spin"></i>-->
    </div>
 
-	    <div class="container-fluid">
+	    <div class="container-fluid" id="div1">
 	    	
 			        <div class="header text-center col-lg-12 col-md-12  col-xs-12">
 
@@ -56,7 +56,7 @@
 	    </div>
 <div class="clearfix"></div>
 
-		<div class="slider-wrapper">
+		<div class="slider-wrapper" id="div2">
 			<div class="responisve-container">
 				<div class="slider">
 
@@ -184,10 +184,9 @@
 			</div>
 		</div>
 
-	<div class="clearfix"></div>
 
 
-		<div class="container-fluid about-me-container text-center">
+		<div class="container-fluid about-me-container text-center" id="div3">
 
 		  <div class="row col-lg-10 col-lg-offset-1">
 
@@ -213,56 +212,54 @@
 
 
 
-		<div class="container-fluid my-expertise-container text-center" id="scroll">
+	<div class="container-fluid my-expertise-container text-center" id="div4">
 
-		  <div class="row col-lg-10 col-lg-offset-1">
+		  <div class="col-lg-10 col-lg-offset-1">
 
-		  	 <div class="expertise-container col-lg-8 col-md-8 col-sm-12 col-xs-12">
+		  	 <div class="container-fluid expertise-container">
 
-				   <div class="col-lg-12 col-md-12 col-sm-12 col-sx-12"><h1 class="my-expertise-header">My Expertise</h1>
-				     </div>
+				   <div class="col-lg-12 col-md-12 col-sm-12 col-sx-12">
+				        <h1 class="my-expertise-header">My Expertise</h1>
+
+				   </div>
+
+				   <div class="col-lg-12 col-md-12 col-sm-12 col-sx-12">
 
 				     <div class="circle col-lg-3"id="circle1">
-					     <span class="Count">90</span>
+					     <span class="timer count-title" id="count-number" data-to="90" data-speed="2500"></span>
 					     <p>HTML</p>
 				     </div>
 
 
 				     <div class="circle col-lg-3"id="circle2">
-					     <span class="Count">90</span>
+					     <span class="timer count-title" id="count-number" data-to="90" data-speed="2500"></span>
 					     <p>CSS</p>
 				     </div>
 				     
 				     <div class="circle col-lg-3"id="circle3">
-					     <span class="Count">90</span>
+					     <span class="timer count-title" id="count-number" data-to="90" data-speed="2500"></span>
 					     <p>Bootstrap</p>
 				     </div>
 
 
 				     <div class="circle col-lg-3"id="circle4">
-					     <span class="Count">50</span>
+					     <span class="timer count-title" id="count-number" data-to="90" data-speed="2500"></span>
 					     <p>Javascript</p>
 				     </div>
 
-
-						  	
-						
+				   </div>			
 	            
            </div>
 
-		  	 <div class="expertise-image-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
+		  	<!--  <div class="expertise-image-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
 		  	 	<img class="img-responsive" src="images/expertise.png">
-		  	 </div>
-
-		     
+		  	 </div> -->     
 
 		</div>
 
-		</div>
+	</div>
 
-		
-
-
+	
 
 
 
@@ -277,77 +274,99 @@
 </script>
 
 
+<script type="text/javascript">
+	
+//$(document).ready(function() {
+
+   
+       
+			// Returns true if the specified element has been scrolled into the viewport.
+function isElementInViewport(elem) {
+    var $elem = $(elem);
+
+    // Get the scroll position of the page.
+    var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
+    var viewportTop = $(scrollElem).scrollTop();
+    var viewportBottom = viewportTop + $(window).height();
+
+    // Get the position of the element on the page.
+    var elemTop = Math.round( $elem.offset().top );
+    var elemBottom = elemTop + $elem.height();
+
+    return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
+}
+
+// Check if it's time to start the animation.
+function checkAnimation() {
+    var $elem = $('#div4');
+
+    // If the animation has already been started
+    if ($elem.hasClass('start')) return;
+
+    if (isElementInViewport($elem)) {
+        // Start the animation
+        $elem.addClass('start');
+    }
+}
+
+// Capture scroll events
+$(window).scroll(function(){
+
+                     
+
+
+
+                   $('#circle1').circleProgress({
+			        value: 0.90,
+			        size: 200,
+			        fill: {
+			            gradient: ["red", "orange"]
+			        }
+			       });
+
+
+			       $('#circle2').circleProgress({
+			        value: 0.90,
+			        size: 200,
+			        fill: {
+			            gradient: ["#1C2D84", "orange"]
+			        }
+			      });
+
+
+			     $('#circle3').circleProgress({
+			        value: 0.90,
+			        size: 200,
+			        fill: {
+			            gradient: ["#14D2D9", "orange"]
+			        }
+			    });
+
+
+			      $('#circle4').circleProgress({
+			        value: 0.50,
+			        size: 200,
+			        fill: {
+			            gradient: ["#2AFF00", "orange"]
+			        }
+			    });
+              
+
+    });
+
+
+
+</script>
 
 <script type="text/javascript">
 
-$(document).ready(function () {
 
-	$(window).scroll(function() {
-   var hT = $('#scroll').offset().top,
-       hH = $('#scroll').outerHeight(),
-       wH = $(window).height(),
-       wS = $(this).scrollTop();
-   if (wS > (hT+hH+-wH)){
-
-
-
-
-
-
-       $('#circle1').circleProgress({
-        value: 0.90,
-        size: 200,
-        fill: {
-            gradient: ["red", "orange"]
-        }
-    });
-
-
-       $('#circle2').circleProgress({
-        value: 0.90,
-        size: 200,
-        fill: {
-            gradient: ["#1C2D84", "orange"]
-        }
-    });
-     $('#circle3').circleProgress({
-        value: 0.90,
-        size: 200,
-        fill: {
-            gradient: ["#14D2D9", "orange"]
-        }
-    });
-
-      $('#circle4').circleProgress({
-        value: 0.50,
-        size: 200,
-        fill: {
-            gradient: ["#2AFF00", "orange"]
-        }
-    });
-
-
-
-      $('.Count').each(function () {
-  var $this = $(this);
-  jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
-    duration: 1000,
-    easing: 'swing',
-    step: function () {
-      $this.text(Math.ceil(this.Counter));
-    }
-  });
-}); 
-
-
-   }
-});
-        
-      
-        
-  });
 
 </script>
+
+
+
+
 
 
  </body>

@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6, p {
 	margin: 0px auto;
 }
 .expertise-container {
-	padding: 5% 0px;
+	padding: 0% 0px;
 }
 
 
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 
-.circle span {
+/*.circle span {
 	color: #fff;
 
 
@@ -137,9 +137,25 @@ h1, h2, h3, h4, h5, h6, p {
     right: 0;
     margin-top: -40px;
     line-height: 40px;
-}
+}*/
 
 .circle p {
 	color: #fff;
+}
+
+
+.timer {
+	color: #fff;
+
+
+	display: block;
+    position: absolute;
+    font-size: 50px;
+    height: 40px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -40px;
+    line-height: 40px;
 }
 
