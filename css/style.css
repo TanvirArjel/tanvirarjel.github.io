@@ -19,7 +19,7 @@
 
 
 
-body {
+body, html {
 	position:relative;
 	
 	font-family:Arial, Sans-Serif;
