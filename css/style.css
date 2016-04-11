@@ -1,10 +1,31 @@
+/*################################################################
+
+  File Name: style.css
+  Template Name: Tanvir Ahmad Arjel Gitgub Website
+  Created By: Md.Tanvir Ahmad Arjel
+  
+  0) BODY
+  1) HOMEPAGE SLIDER
+  2) ABOUT ME
+  3) SKILSS AND EXPERTISE
+  
+  
+
+################################################################*/
+
+/*################################################################
+  0. BODY STYLING
+#################################################################*/
+
+
+
 body {
-	/*position:relative;
+	position:relative;
 	
 	font-family:Arial, Sans-Serif;
 	-webkit-font-kerning: auto;
 	-webkit-font-smoothing: antialiased;
-	overflow-x: hidden;*/
+	overflow-x: hidden;
 }
 
 
@@ -20,15 +41,16 @@ h1, h2, h3, h4, h5, h6, p {
 	padding: 0;
 }
 
-/* SLIDER STYLES */
-	
+/*################################################################
+  1. HOMEPAGE SLIDER STYLING
+#################################################################*/	
 .slider-wrapper {
 	position:relative;
 	overflow:hidden;
 	
 	width:100%;
 	
-	margin:0px auto;
+	margin:6rem auto;
 	
 	background:#1b1b1b;
 	
@@ -40,7 +62,7 @@ h1, h2, h3, h4, h5, h6, p {
 	position:relative;
 	width:100%; 
 	/*height:800px; when responsive, comment this out */
-	margin:0 auto;
+	margin:0px auto;
 	
 	background:#1b1b1b;
 }
@@ -65,37 +87,44 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 
-
+/*################################################################
+  2.. ABOUT ME SECTION STYLING
+#################################################################*/
 
 
 .about-me-container {
 	position: relative;
-	padding: 1%;
+	padding: 1% 2%;
+	margin-top: -6rem;
 }
 
-.about-me-header {
-	
-	text-transform: uppercase;
+.content-container {
+	padding: 5% 5%;
 }
 
-.about-me-header-text {
+
+
+.about-me-header h1 {
 	font-family: Times;
-	font-size: 50px;
+	font-size: 40px;
+	text-transform: uppercase;
 }
 
 .about-me-content {
 	/*font-family: 'Josefin Slab', serif;*/
 	font-family: arial;
-	font-size: 25px;
-	text-align: left;
+	font-size: 23px;
+	/*text-align: left;*/
+	text-align: justify;
 }
 
 .img-responsive {
 	margin: 0px auto;
 }
-.content-container {
-	padding: 5% 0px;
-}
+
+/*################################################################
+  3.SKILLS AND EXPERTISE STYLING
+#################################################################*/
 
 .my-expertise-container {
 	position: relative;
@@ -106,7 +135,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .my-expertise-header {
 	padding: 2% 0px;
-	font-size: 55px;
+	font-size: 40px;
 	font-family: Times;
 	text-transform: uppercase;
 	color: #B5B522;
@@ -118,9 +147,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 
-
+.circle {
+	margin: 5px 0px;
+}
 .circle p {
 	color: #fff;
+	font-family: arial;
+	font-size: 23px;
 }
 
 

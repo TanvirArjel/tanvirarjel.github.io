@@ -10,3 +10,15 @@ $(window).load(function(){
 	});
 
 });
+
+
+
+// Javascript for smooth anchor scrolling
+$(document).ready(function(){
+    $('a').click(function(){
+      $('html,body').animate({
+          scrollTop: $( $.attr(this, 'href') ).offset().top - 85
+      }, 1500);
+      return false;
+    });
+});
