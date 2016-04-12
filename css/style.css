@@ -19,13 +19,13 @@
 
 
 
-body, html {
+body {
 	position:relative;
 	
 	font-family:Arial, Sans-Serif;
 	-webkit-font-kerning: auto;
 	-webkit-font-smoothing: antialiased;
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 
 
@@ -41,6 +41,25 @@ h1, h2, h3, h4, h5, h6, p {
 	padding: 0;
 }
 
+
+/*.navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 200px;
+        text-align: center;
+        background-color: transparent;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }*/
+
+   .navbar {
+z-index: 999999;
+
+   } 
+
 /*################################################################
   1. HOMEPAGE SLIDER STYLING
 #################################################################*/	
@@ -50,7 +69,7 @@ h1, h2, h3, h4, h5, h6, p {
 	
 	width:100%;
 	
-	margin:6rem auto;
+	margin:50px auto;
 	
 	background:#1b1b1b;
 	
@@ -95,7 +114,7 @@ h1, h2, h3, h4, h5, h6, p {
 .about-me-container {
 	position: relative;
 	padding: 1% 2%;
-	margin-top: -6rem;
+	margin-top: -50px;
 }
 
 .content-container {
