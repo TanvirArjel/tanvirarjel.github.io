@@ -46,13 +46,29 @@ h1, h2, h3, h4, h5, h6, p {
 	padding: 0;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 
 @media screen and (min-width:768px){
     .navbar-brand-centered {
         position: absolute;
         left: 50%;
         display: block;
-        width: 180px;
+        width: 240px;
         text-align: center;
     }
     .navbar>.container .navbar-brand-centered, 
@@ -65,10 +81,28 @@ h1, h2, h3, h4, h5, h6, p {
 z-index: 99999;
 background-color: #ffffff;
 border: none;
+/*border-bottom: 5px solid #0a0a0a;*/
+box-shadow: 0px 5px 0px #666666;
 
    }
-.navbar-brand {
+
+
+.navbar-default .navbar-brand {
+	color: #000;
 	padding: 15px 10px;
+	font-weight: bold;
+	font-family: Times;
+	font-size: 25px;
+
+}
+.navbar-default .navbar-brand a {
+	color: #000;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #0a0a0a;
+	font-size: 18px;
 }
 		        		        
 
@@ -82,7 +116,7 @@ border: none;
 	
 	width:100%;
 	
-	margin:50px auto;
+	margin:55px auto;
 	
 	background:#1b1b1b;
 	
