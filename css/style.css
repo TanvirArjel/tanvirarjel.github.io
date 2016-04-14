@@ -35,6 +35,11 @@ body {
 	padding: 0;
 }
 
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
 h1, h2, h3, h4, h5, h6, p {
 
 	margin: 0;
@@ -42,23 +47,31 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 
-/*.navbar-brand-centered {
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
         position: absolute;
         left: 50%;
         display: block;
-        width: 200px;
+        width: 180px;
         text-align: center;
-        background-color: transparent;
     }
     .navbar>.container .navbar-brand-centered, 
     .navbar>.container-fluid .navbar-brand-centered {
-        margin-left: -80px;
-    }*/
+        margin-left: -90px;
+    }
+}
 
    .navbar {
-z-index: 999999;
+z-index: 99999;
+background-color: #ffffff;
+border: none;
 
-   } 
+   }
+.navbar-brand {
+	padding: 15px 10px;
+}
+		        		        
+
 
 /*################################################################
   1. HOMEPAGE SLIDER STYLING
@@ -125,14 +138,14 @@ z-index: 999999;
 
 .about-me-header h1 {
 	font-family: Times;
-	font-size: 40px;
+	font-size: 35px;
 	text-transform: uppercase;
 }
 
 .about-me-content {
 	/*font-family: 'Josefin Slab', serif;*/
 	font-family: arial;
-	font-size: 23px;
+	font-size: 20px;
 	/*text-align: left;*/
 	text-align: justify;
 }
@@ -154,7 +167,7 @@ z-index: 999999;
 
 .my-expertise-header {
 	padding: 2% 0px;
-	font-size: 40px;
+	font-size: 35px;
 	font-family: Times;
 	text-transform: uppercase;
 	color: #B5B522;
