@@ -20,13 +20,11 @@
 
 
 body {
-	position:relative;
-	
-	/*font-family:Arial, Sans-Serif;*/
-	font-family: Georgia, serif;
+	font-family: Georgia, Arial, Sans-serif;
 	-webkit-font-kerning: auto;
 	-webkit-font-smoothing: antialiased;
-	/*overflow-x: hidden;*/
+	background-color: #fff;
+	line-height: 1.6;
 }
 
 
@@ -63,7 +61,10 @@ a:active {
     text-decoration: none;
 }
 
-
+.container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
 @media screen and (min-width:768px){
     .navbar-brand-centered {
         position: absolute;
@@ -84,6 +85,8 @@ background-color: #ffffff;
 border: none;
 /*border-bottom: 5px solid #0a0a0a;*/
 box-shadow: 0px 5px 0px #666666;
+margin-bottom: 0px;
+
 
    }
 
@@ -105,8 +108,17 @@ box-shadow: 0px 5px 0px #666666;
 	color: #0a0a0a;
 	font-size: 18px;
 }
-		        		        
 
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 50px;
+    height: 80px;
+}	        		        
+
+.navbar-toggle {
+	margin-top: 23px;
+} 
 
 /*################################################################
   1. HOMEPAGE SLIDER STYLING
@@ -117,7 +129,7 @@ box-shadow: 0px 5px 0px #666666;
 	
 	width:100%;
 	
-	margin:55px auto;
+	margin:85px auto;
 	margin-bottom: 0px;
 	
 	background:#1b1b1b;
@@ -163,7 +175,6 @@ box-shadow: 0px 5px 0px #666666;
 .about-me-container {
 	position: relative;
 	padding: 2% 0px;
-	/*margin-top: px;*/
 }
 
 .about-image-container {
@@ -172,25 +183,20 @@ box-shadow: 0px 5px 0px #666666;
 }
 
 .content-container {
-	padding: 3% 0px;
+	padding: 6% 0px;
 }
 
-.about-me-header {
-	padding: 0% 0px;
-}
-
-.about-me-header h1 {
+.content-container h1 {
+	text-align: center;
+	padding: 10px 0px;
 	font-family: Times;
 	font-size: 35px;
-	text-transform: uppercase;
 }
 
-.about-me-content {
-	/*font-family: sans-serif;*/
+.content-container p {
 	font-family: Georgia, serif;
 	font-size: 18px;
 	line-height: 1.6;
-	
 	text-align: justify;
 }
 
@@ -218,6 +224,13 @@ box-shadow: 0px 5px 0px #666666;
 	font-size: 35px;
 }
 
+.skill-item-container1 {
+	padding-left: 0px;
+}
+.skill-item-container2 {
+	padding-right: 0px;
+
+}
 .bar {
 	height:60px;
 	background:#d9d9d9;
@@ -391,7 +404,7 @@ box-shadow: 0px 5px 0px #666666;
 	}
 
 	100% {
-	    width: 50%;
+	    width: 40%;
 	}
 
 }
@@ -414,7 +427,7 @@ box-shadow: 0px 5px 0px #666666;
 	}
 
 	100% {
-	    width: 50%;
+	    width: 40%;
 	}
 
 }
@@ -438,7 +451,7 @@ box-shadow: 0px 5px 0px #666666;
 	}
 
 	100% {
-	    width: 50%;
+	    width: 40%;
 	}
 
 }
@@ -484,7 +497,7 @@ box-shadow: 0px 5px 0px #666666;
 	}
 
 	100% {
-	    width: 60%;
+	    width: 50%;
 	}
 
 }

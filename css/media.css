@@ -1,13 +1,47 @@
 @media only screen and (max-width: 767px) {
 	.container {
-		padding: 15px 15px;
+		padding: 0px 15px;
 	}
+
+	.navbar-nav li a {
+    line-height: 30px;
+    height: 50px;
+    }
+
+	.skill-header {
+	font-size: 30px;
+	padding: 20px 10px;
+    }
+
+	.skill-item-container1,.skill-item-container2 {
+		padding-right: 0px;
+	    padding-left: 0px;
+    }
+}
+
+@media only screen  and (min-width: 768px) and (max-width: 991px) {
+	.skill-item-container1,.skill-item-container2 {
+		padding-right: 15px;
+	    padding-left: 15px;
+}
+
+/*.navbar-nav li a {
+    line-height: 30px;
+    height: 50px;
+}*/
+
+
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
 	.about-image-container {
-		padding: 6% 0px;
+		padding: 0% 0px;
 		padding-right: 15px;
 	}
+
+	.content-container {
+    padding: 0% 0px;
+   }
 }
