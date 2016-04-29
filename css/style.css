@@ -22,7 +22,8 @@
 body {
 	position:relative;
 	
-	font-family:Arial, Sans-Serif;
+	/*font-family:Arial, Sans-Serif;*/
+	font-family: Georgia, serif;
 	-webkit-font-kerning: auto;
 	-webkit-font-smoothing: antialiased;
 	/*overflow-x: hidden;*/
@@ -185,8 +186,10 @@ box-shadow: 0px 5px 0px #666666;
 }
 
 .about-me-content {
-	font-family: sans-serif;
-	font-size: 22px;
+	/*font-family: sans-serif;*/
+	font-family: Georgia, serif;
+	font-size: 18px;
+	line-height: 1.6;
 	
 	text-align: justify;
 }
@@ -199,71 +202,32 @@ box-shadow: 0px 5px 0px #666666;
   3.SKILLS AND EXPERTISE STYLING
 #################################################################*/
 
-.my-expertise-container {
-	position: relative;
-	background-color: #1b1b1b;
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-.my-expertise-header {
-	padding: 2% 0px;
-	font-size: 35px;
-	font-family: Times;
-	text-transform: uppercase;
-	color: #B5B522;
-}
-
-.all-circle-container {
-
-	padding: 2% 0px;
-}
-
-
-.circle {
-	margin: 5px 0px;
-}
-.circle p {
-	color: #fff;
-	font-family: arial;
-	font-size: 23px;
-}
-
-
-.timer {
-	color: #fff;
-
-
-	display: block;
-    position: absolute;
-    font-size: 50px;
-    height: 40px;
-    top: 50%;
-    left: 0;
-    right: 0;
-    margin-top: -40px;
-    line-height: 40px;
-}
 
 /*################################################################
   3.SKILLS AND EXPERTISE STYLING
 #################################################################*/
 
 .skill-container {
-	padding: 5% 0px;
-	background-color: #666;
+	padding: 3% 0px;
+	background-color: #F3F0F0;
+}
+
+.skill-header {
+	padding: 2% 10px;
+	text-align: center;
+	font-size: 35px;
 }
 
 .bar {
 	height:60px;
-	background:#cccccc;
+	background:#d9d9d9;
 	color:#000;
 	text-align:center;
 	width:100%;
 	margin-bottom: 40px;
 }
 
-.html, .css, .bootstrap, .jquery, .angularjs, .asp, .graphics {
+.html, .css, .bootstrap,.javascript, .jquery, .angularjs, .asp, .graphics {
 	height:60px;
 	/*background:#aae0aa;*/
     width:90%;
@@ -277,21 +241,14 @@ box-shadow: 0px 5px 0px #666666;
 }
 
 
-.javascript {
-	height:60px;
-	/*background:#aae0aa;*/
-    width:90%;
-    float: left;
-}
-
-
-
-
 .bar h1 {
 	top: 0px;
 	float: left;
 	line-height: 60px;
 	font-size: 20px;
+	padding-left: 10px;
+	font-weight: bold;
+	color: #fff;
 	
 }
 
@@ -303,42 +260,51 @@ box-shadow: 0px 5px 0px #666666;
 	margin-top: 10px;
 	margin-right: 10px;
 	font-size: 18px;
-	background-color: red;
+	/*background-color: red;*/
 	line-height: 40px;
 	color: #fff;
 	border-radius: 20px;
+	font-family: times;
 
 } 
 
+.html-percentage {
+	background-color: #e44d26;
+}
 
+.css-percentage {
+	background-color: #0170ba;
+}
 
-.javascript.start {
-	width: 0px;
-	background: #E017C1;
-	-webkit-animation: javascript 2s ease-out forwards;
-	   -moz-animation: javascript 2s ease-out forwards;
-	    -ms-animation: javascript 2s ease-out forwards;
-	     -o-animation: javascript 2s ease-out forwards;
-	        animation: javascript 2s ease-out forwards;
+.bootstrap-percentage {
+	background-color: #5a3e82;
+}
+
+.javascript-percentage {
+	background-color: #d6ba32;
+}
+
+.jquery-percentage {
+	background-color: #000;
+}
+
+.angularjs-percentage {
+	background-color: #f50023;
+}
+
+.asp-percentage {
+	background-color: #41c1f2;
+}
+.graphics-percentage {
+	background-color: #011838;
 }
 
 
-
-@-webkit-keyframes javascript {
-	0% {
-	    width: 0px;
-	}
-
-	100% {
-	    width: 50%;
-	}
-
-}
 
 
 .html.start {
 	width: 0px;
-	background: #0C1481;
+	background: #e44d26;
 	-webkit-animation: html 2s ease-out forwards;
 	   -moz-animation: html 2s ease-out forwards;
 	    -ms-animation: html 2s ease-out forwards;
@@ -362,7 +328,7 @@ box-shadow: 0px 5px 0px #666666;
 
 .css.start {
 	width: 0px;
-	background: #17E063;
+	background: #0170ba;
 	-webkit-animation: css 2s ease-out forwards;
 	   -moz-animation: css 2s ease-out forwards;
 	    -ms-animation: css 2s ease-out forwards;
@@ -386,7 +352,7 @@ box-shadow: 0px 5px 0px #666666;
 
 .bootstrap.start {
 	width: 0px;
-	background: #6C1279;
+	background: #5a3e82;
 	-webkit-animation: bootstrap 2s ease-out forwards;
 	   -moz-animation: bootstrap 2s ease-out forwards;
 	    -ms-animation: bootstrap 2s ease-out forwards;
@@ -407,9 +373,32 @@ box-shadow: 0px 5px 0px #666666;
 
 }
 
+.javascript.start {
+	width: 0px;
+	background: #d6ba32;
+	-webkit-animation: javascript 2s ease-out forwards;
+	   -moz-animation: javascript 2s ease-out forwards;
+	    -ms-animation: javascript 2s ease-out forwards;
+	     -o-animation: javascript 2s ease-out forwards;
+	        animation: javascript 2s ease-out forwards;
+}
+
+
+
+@-webkit-keyframes javascript {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 50%;
+	}
+
+}
+
 .jquery.start {
 	width: 0px;
-	background: #127379;
+	background: #000;
 	-webkit-animation: jquery 2s ease-out forwards;
 	   -moz-animation: jquery 2s ease-out forwards;
 	    -ms-animation: jquery 2s ease-out forwards;
@@ -433,7 +422,7 @@ box-shadow: 0px 5px 0px #666666;
 
 .angularjs.start {
 	width: 0px;
-	background: #791256;
+	background: #f50023;
 	-webkit-animation: angularjs 2s ease-out forwards;
 	   -moz-animation: angularjs 2s ease-out forwards;
 	    -ms-animation: angularjs 2s ease-out forwards;
@@ -456,7 +445,7 @@ box-shadow: 0px 5px 0px #666666;
 
 .asp.start {
 	width: 0px;
-	background: #791256;
+	background: #41c1f2;
 	-webkit-animation: asp 2s ease-out forwards;
 	   -moz-animation: asp 2s ease-out forwards;
 	    -ms-animation: asp 2s ease-out forwards;
@@ -479,7 +468,7 @@ box-shadow: 0px 5px 0px #666666;
 
 .graphics.start {
 	width: 0px;
-	background: #791256;
+	background: #011838;
 	-webkit-animation: graphics 2s ease-out forwards;
 	   -moz-animation: graphics 2s ease-out forwards;
 	    -ms-animation: graphics 2s ease-out forwards;
