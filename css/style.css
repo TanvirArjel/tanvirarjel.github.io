@@ -117,6 +117,7 @@ box-shadow: 0px 5px 0px #666666;
 	width:100%;
 	
 	margin:55px auto;
+	margin-bottom: 0px;
 	
 	background:#1b1b1b;
 	
@@ -160,15 +161,22 @@ box-shadow: 0px 5px 0px #666666;
 
 .about-me-container {
 	position: relative;
-	padding: 1% 2%;
-	margin-top: -50px;
+	padding: 2% 0px;
+	/*margin-top: px;*/
+}
+
+.about-image-container {
+	padding: 0% 0px;
+	padding-right: 15px;
 }
 
 .content-container {
-	padding: 5% 5%;
+	padding: 3% 0px;
 }
 
-
+.about-me-header {
+	padding: 0% 0px;
+}
 
 .about-me-header h1 {
 	font-family: Times;
@@ -177,10 +185,9 @@ box-shadow: 0px 5px 0px #666666;
 }
 
 .about-me-content {
-	/*font-family: 'Josefin Slab', serif;*/
-	font-family: arial;
-	font-size: 20px;
-	/*text-align: left;*/
+	font-family: sans-serif;
+	font-size: 22px;
+	
 	text-align: justify;
 }
 
@@ -238,3 +245,257 @@ box-shadow: 0px 5px 0px #666666;
     line-height: 40px;
 }
 
+/*################################################################
+  3.SKILLS AND EXPERTISE STYLING
+#################################################################*/
+
+.skill-container {
+	padding: 5% 0px;
+	background-color: #666;
+}
+
+.bar {
+	height:60px;
+	background:#cccccc;
+	color:#000;
+	text-align:center;
+	width:100%;
+	margin-bottom: 40px;
+}
+
+.html, .css, .bootstrap, .jquery, .angularjs, .asp, .graphics {
+	height:60px;
+	/*background:#aae0aa;*/
+    width:90%;
+    float: left;
+}
+
+.skill {
+	height: 60px;
+	width: 90%;
+	float: left;
+}
+
+
+.javascript {
+	height:60px;
+	/*background:#aae0aa;*/
+    width:90%;
+    float: left;
+}
+
+
+
+
+.bar h1 {
+	top: 0px;
+	float: left;
+	line-height: 60px;
+	font-size: 20px;
+	
+}
+
+.bar span {
+	height: 40px;
+	width: 40px;
+	float: right;
+	/*position: absolute;*/
+	margin-top: 10px;
+	margin-right: 10px;
+	font-size: 18px;
+	background-color: red;
+	line-height: 40px;
+	color: #fff;
+	border-radius: 20px;
+
+} 
+
+
+
+.javascript.start {
+	width: 0px;
+	background: #E017C1;
+	-webkit-animation: javascript 2s ease-out forwards;
+	   -moz-animation: javascript 2s ease-out forwards;
+	    -ms-animation: javascript 2s ease-out forwards;
+	     -o-animation: javascript 2s ease-out forwards;
+	        animation: javascript 2s ease-out forwards;
+}
+
+
+
+@-webkit-keyframes javascript {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 50%;
+	}
+
+}
+
+
+.html.start {
+	width: 0px;
+	background: #0C1481;
+	-webkit-animation: html 2s ease-out forwards;
+	   -moz-animation: html 2s ease-out forwards;
+	    -ms-animation: html 2s ease-out forwards;
+	     -o-animation: html 2s ease-out forwards;
+	        animation: html 2s ease-out forwards;
+}
+
+
+
+@-webkit-keyframes html {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 80%;
+	}
+
+}
+
+
+.css.start {
+	width: 0px;
+	background: #17E063;
+	-webkit-animation: css 2s ease-out forwards;
+	   -moz-animation: css 2s ease-out forwards;
+	    -ms-animation: css 2s ease-out forwards;
+	     -o-animation: css 2s ease-out forwards;
+	        animation: css 2s ease-out forwards;
+}
+
+
+
+@-webkit-keyframes css {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 80%;
+	}
+
+}
+
+
+.bootstrap.start {
+	width: 0px;
+	background: #6C1279;
+	-webkit-animation: bootstrap 2s ease-out forwards;
+	   -moz-animation: bootstrap 2s ease-out forwards;
+	    -ms-animation: bootstrap 2s ease-out forwards;
+	     -o-animation: bootstrap 2s ease-out forwards;
+	        animation: bootstrap 2s ease-out forwards;
+}
+
+
+
+@-webkit-keyframes bootstrap {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 80%;
+	}
+
+}
+
+.jquery.start {
+	width: 0px;
+	background: #127379;
+	-webkit-animation: jquery 2s ease-out forwards;
+	   -moz-animation: jquery 2s ease-out forwards;
+	    -ms-animation: jquery 2s ease-out forwards;
+	     -o-animation: jquery 2s ease-out forwards;
+	        animation: jquery 2s ease-out forwards;
+}
+
+
+
+@-webkit-keyframes jquery {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 50%;
+	}
+
+}
+
+
+.angularjs.start {
+	width: 0px;
+	background: #791256;
+	-webkit-animation: angularjs 2s ease-out forwards;
+	   -moz-animation: angularjs 2s ease-out forwards;
+	    -ms-animation: angularjs 2s ease-out forwards;
+	     -o-animation: angularjs 2s ease-out forwards;
+	        animation: angularjs 2s ease-out forwards;
+}
+
+
+
+@-webkit-keyframes angularjs {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 50%;
+	}
+
+}
+
+.asp.start {
+	width: 0px;
+	background: #791256;
+	-webkit-animation: asp 2s ease-out forwards;
+	   -moz-animation: asp 2s ease-out forwards;
+	    -ms-animation: asp 2s ease-out forwards;
+	     -o-animation: asp 2s ease-out forwards;
+	        animation: asp 2s ease-out forwards;
+}
+
+
+
+@-webkit-keyframes asp {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 20%;
+	}
+
+}
+
+.graphics.start {
+	width: 0px;
+	background: #791256;
+	-webkit-animation: graphics 2s ease-out forwards;
+	   -moz-animation: graphics 2s ease-out forwards;
+	    -ms-animation: graphics 2s ease-out forwards;
+	     -o-animation: graphics 2s ease-out forwards;
+	        animation: graphics 2s ease-out forwards;
+}
+
+
+
+@-webkit-keyframes graphics {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 60%;
+	}
+
+}
