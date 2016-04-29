@@ -7,14 +7,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Home of Tanvir Arjel</title>
-
-		<link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
-		
-		
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
-		<link rel="stylesheet" href="css/fractionslider.css">
 		<link rel="stylesheet" type="text/css" href="css/media.css">
+		<link href="responsive-slider/css/responsive-slider-parallax.css" rel="stylesheet" media="screen">
 
 	
 
@@ -70,133 +66,74 @@
 	   
 <!-- 1. HOMEPAGE SLIDER SECTION STARTS HERE -->
 
-		<div class="slider-wrapper" id="div2">
-			<div class="responisve-container">
-				<div class="slider">
-
-					<div class="slide">
-
-						<img 	src="images/01_box_top.png"
-								width="361" height="354"			
-								data-position="0,200" data-in="left" data-delay="200" data-out="right">
-								
-						<img    src="images/01_box_bottom.png" 
-								width="422" height="454" 		
-								data-position="138,0" data-in="bottomRight" data-delay="200">
-								
-						<img    src="images/01_waves.png" 
-								width="1449" height="115"
-								data-position="320,100" data-in="left" data-delay="" data-out="left">
-
-								<img 	src="images/tanvir.png" 
-								data-position="30,700" data-step="1" data-in="top" data-delay="500" data-out="top">
-			
-						
-						
-
-
-						<img 	src="images/flat-pc.png" 
-								data-position="250,340" data-in="bottom" data-delay="4000" data-out="top">
-						
-						<img 	src="images/dairy-pen2.png" 
-								data-position="230,730" data-in="right" data-delay="5000" data-out="left">
-
-
-						<img 	src="images/tab.png" 
-								data-position="275,1070" data-in="bottom" data-delay="6000" data-out="top">
-
-						<img 	src="images/phone.png" 
-								data-position="268,1300" data-in="top" data-delay="7000" data-out="bottom">
-
-
-
-								<img 	src="images/cake3.png" 
-								data-position="10,0" data-in="topRight" data-delay="500" data-out="bottomRight">
-
-								<img 	src="images/chocolate-bar.png" 
-								data-position="550,0" data-in="bottomRight" data-delay="1000" data-out="topRight">
-
-								<img 	src="images/coffee.png" 
-								data-position="0,1646" data-in="topLeft" data-delay="2500" data-out="bottomLeft">
-
-								<img 	src="images/burger2.png" 
-								data-position="500,1606" data-in="bottomLeft" data-delay="3000" data-out="topLeft">
-
-					</div>
-
-					<div class="slide">
-						<img 	src="images/02_big_boxes.png" 		
-								data-position="25,445" data-in="fade" data-delay="0" data-out="right">
-								
-						<img 	src="images/02_small_boxes.png" 	
-								data-position="80,220" data-in="fade" data-delay="500" data-out="bottomRight">
-						
-						<img    src="images/01_box_bottom.png" 
-								data-position="138,0" data-in="bottomRight" data-delay="200" data-out="bottomRight">
-						
-						
-								
-						<img    src="images/01_waves.png" 
-								width="1449" height="115"
-								data-position="240,200" data-in="right" data-step="2" data-easeIn="easeOutCirc">
-
-
-
-
-
-								
-						        <img 	src="images/Slider2/coding4.png" 
-								data-position="220,750" data-in="fade" data-delay="500" data-out="fade">
-
-
-								<img 	src="images/Slider2/php.png" 
-								data-position="320,430" data-in="fade"  data-delay="1000" data-out="fade">
-
-								<img 	src="images/Slider2/MySQL.png" 
-								data-position="320,1100" data-in="fade" data-delay="2000" data-out="fade">
-
-
-
-
-
-								<img 	src="images/Slider2/html3.png" 
-								data-position="30,200" data-in="topRight" data-delay="1000" data-out="topLeft">
-
-								<img 	src="images/Slider2/css3.png" 
-								data-position="290,0" data-in="right" data-delay="2000" data-out="left">
-
-								<img 	src="images/Slider2/bootstrap1.png" 
-								data-position="600,200" data-in="bottomRight" data-delay="3000" data-out="bottomLeft">
-
-
-
-                                <img 	src="images/Slider2/net3.png" 
-								data-position="30,750" data-in="top" data-delay="500" data-out="top">
-
-								<img 	src="images/Slider2/csharp2.png" 
-								data-position="600,750" data-in="bottom" data-delay="500" data-out="bottom">
-
-
-
-
-								<img 	src="images/Slider2/Javascript.png" 
-								data-position="30,1400" data-in="topLeft" data-delay="1000" data-out="topRight">
-
-								<img 	src="images/Slider2/jquery.png" 
-								data-position="320,1500" data-in="left" data-delay="2000" data-out="Right">
-
-								<img 	src="images/Slider2/angularjs.png" 
-								data-position="570,1400" data-in="bottomLeft" data-delay="3000" data-out="bottomRight">
-
-
-
-
-					</div>
-
-
-				</div>
-			</div>
+<!-- Responsive slider - START -->
+  	<div class="responsive-slider-parallax" data-spy="responsive-slider" data-parallax="true" data-parallax-direction="1">
+      <div class="slides-container" data-group="slides">
+        <ul>
+          <li>
+            <div class="slide-body" data-group="slide">
+              <div class="container">
+                <div class="wrapper">
+                  <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                    <h2>Responsive slider</h2>
+                    <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300">With one to one swipe movement!</div>
+                  </div>
+                  <div class="caption img-html5" data-animate="slideAppearLeftToRight" data-delay="200">
+                    <img src="responsive-slider/img/html5.png">
+                  </div>
+                  <div class="caption img-css3" data-animate="slideAppearLeftToRight">
+                    <img src="responsive-slider/img/css3.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="slide-body" data-group="slide">
+              <div class="container">
+                <div class="wrapper">
+                  <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                    <h2>Twitter Boostrap</h2>
+                    <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300">Compatible!</div>
+                  </div>
+                  <div class="caption img-bootstrap" data-animate="slideAppearDownToUp" data-delay="200">
+                    <img src="responsive-slider/img/bootstrap.png">
+                  </div>
+                  <div class="caption img-twitter" data-animate="slideAppearUpToDown">
+                    <img src="responsive-slider/img/twitter.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="slide-body" data-group="slide">
+              <div class="container">
+                <div class="wrapper">
+                  <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                    <h2>Custom animations</h2>
+                    <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300">For any caption you use!</div>
+                  </div>
+                  <div class="caption img-jquery" data-animate="slideAppearDownToUp" data-delay="200">
+                    <img src="responsive-slider/img/jquery.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
+      <a class="slider-control left" href="#" data-jump="prev">Prev</a>
+      <a class="slider-control right" href="#" data-jump="next">Next</a>
+      <div class="pages">
+        <a class="page" href="#" data-jump-to="1">1</a>
+        <a class="page" href="#" data-jump-to="2">2</a>
+        <a class="page" href="#" data-jump-to="3">3</a>
+      </div>
+    </div>
+    <!-- Responsive slider - END -->
+
+		
 
 <!--HOMEPAGE SLIDER SECTION ENDS HERE -->      
 
@@ -320,21 +257,23 @@
 
 
 
-
 	
 <script src="js/jquery-2.2.2.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-
-    <!-- endbuild -->
-
-	
-
 <script type="text/javascript" src="js/script.js"></script>
-<!-- <script type="text/javascript" src="js/circle-progress.js"></script> -->
+<script src="responsive-slider/js/jquery.event.move.js"></script>
+<script src="responsive-slider/js/responsive-slider.js"></script>
 
-<script src="js/jquery.fractionslider.js" type="text/javascript" charset="utf-8"></script>
-
-<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+<script>
+$( document ).ready( function() {
+  $('.responsive-slider-parallax').responsiveSlider({
+    autoplay: true,
+    interval: 5000,
+    parallax: true,
+    transitionTime: 1000
+  });
+});
+</script>
 
 <script type="text/javascript">
   $(window).load(function () {
@@ -344,126 +283,6 @@
 
 </script>
 
-<script type="text/javascript">
-
-
-// Capture scroll events
-// $(window).scroll(function(){
-//     checkAnimation();
-//     $('#circle1').circleProgress({
-// 			        value: 0.90,
-// 			        thickness: 30,
-// 			        size: 200,
-
-// 			        animation: {
-// 				            duration: 3000,
-// 				            easing: 'circleProgressEasing'
-// 				        },
-// 			        fill: {
-// 			            gradient: ["red", "orange"]
-// 			        }
-// 			       });
-
-
-// 			       $('#circle2').circleProgress({
-// 			        value: 0.90,
-// 			        thickness: 30,
-// 			        size: 200,
-// 			        animation: {
-// 				            duration: 3000,
-// 				            easing: 'circleProgressEasing'
-// 				        },
-// 			        fill: {
-// 			            gradient: ["#1C2D84", "orange"]
-// 			        }
-// 			      });
-
-
-// 			     $('#circle3').circleProgress({
-// 			        value: 0.90,
-// 			        thickness: 30,
-// 			        size: 200,
-// 			        animation: {
-// 				            duration: 3000,
-// 				            easing: 'circleProgressEasing'
-// 				        },
-// 			        fill: {
-// 			            gradient: ["#14D2D9", "orange"]
-// 			        }
-// 			    });
-
-
-// 			      $('#circle4').circleProgress({
-// 			        value: 0.50,
-// 			        thickness: 30,
-// 			        size: 200,
-// 			        animation: {
-// 				            duration: 3000,
-// 				            easing: 'circleProgressEasing'
-// 				        },
-// 			        fill: {
-// 			            gradient: ["#2AFF00", "orange"]
-// 			        }
-// 			    });
-
-
-
-// 			      $('#circle5').circleProgress({
-// 			        value: 0.50,
-// 			        thickness: 30,
-// 			        size: 200,
-// 			        animation: {
-// 				            duration: 3000,
-// 				            easing: 'circleProgressEasing'
-// 				        },
-// 			        fill: {
-// 			            gradient: ["#274a60", "orange"]
-// 			        }
-// 			       });
-
-
-// 			       $('#circle6').circleProgress({
-// 			        value: 0.50,
-// 			        thickness: 30,
-// 			        size: 200,
-// 			        animation: {
-// 				            duration: 3000,
-// 				            easing: 'circleProgressEasing'
-// 				        },
-// 			        fill: {
-// 			            gradient: ["#1C2D84", "#05F9EB"]
-// 			        }
-// 			      });
-
-
-// 			     $('#circle7').circleProgress({
-// 			        value: 0.10,
-// 			        thickness: 30,
-// 			        size: 200,
-// 			        animation: {
-// 				            duration: 3000,
-// 				            easing: 'circleProgressEasing'
-// 				        },
-// 			        fill: {
-// 			            gradient: ["#14D930", "#0a0a0a"]
-// 			        }
-// 			    });
-
-
-// 			      $('#circle8').circleProgress({
-// 			        value: 0.10,
-// 			        thickness: 30,
-// 			        size: 200,
-// 			        animation: {
-// 				            duration: 3000,
-// 				            easing: 'circleProgressEasing'
-// 				        },
-// 			        fill: {
-// 			            gradient: ["#9F3F1D", "#D89925"]
-// 			        }
-// 			    });
-              
-</script>
 
 <script type="text/javascript">
 
