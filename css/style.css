@@ -458,3 +458,18 @@ margin-bottom: 0px;
 	}
 
 }
+
+/*################################################################
+  3.SKILLS AND EXPERTISE STYLING
+#################################################################*/
+
+.gallary-section-header {
+	position: relative;
+	padding: 2% 0px;
+}
+.gallary-section-header h1 {
+	text-align: center;
+	padding: 15px 10px;
+	font-family: Times;
+
+}
