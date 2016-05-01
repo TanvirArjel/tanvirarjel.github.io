@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="css/media.css">
 		<link href="responsive-slider/css/responsive-slider-parallax.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 
 		<!-- For Gallry Section -->
 		<link rel="shortcut icon" href="gallary-section/favicon.ico">
@@ -386,14 +387,41 @@
 				</div>
 			</section>
 
-
-<div class="contact-section">
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.5823546205647!2d90.35694401545221!3d23.762268294238797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf5f6517c9c1%3A0xb625c3d393feb162!2sMohammadpur+Shia+Masjid!5e0!3m2!1sen!2sbd!4v1462074474086" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-	
-
+<div class="contact-header">
+	<h1>Get Me In Touch</h1>
 </div>			
 
+<div class="contact-section">
+		<div id="googlemaps"></div>
+
+         <div class="contact-information">
+
+          <div class='contact-item-container'>
+			    <div id="first"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i></div>
+			    <div id="second">Mohammadpur, Dhaka</div>
+			    <div id="clear"></div>
+		  </div>
+
+		  <div class='contact-item-container'>
+			    <div id="first"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></div>
+			    <div id="second">+4401815700966</div>
+			    <div id="clear"></div>
+		  </div>
+
+		  <div class='contact-item-container'>
+			    <div id="first"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></div>
+			    <div id="second">tavnirahmad.du@gmail.com</div>
+			    <div id="clear"></div>
+		  </div>
+         	
+
+         </div>
+</div>
+
+
+<div class="footer">
+	hai I am Tanvir
+</div>
 
 
 
@@ -448,11 +476,41 @@ $( document ).ready( function() {
 </script>
 
 
+<!-- Include the Google Maps API library - required for embedding maps -->
+<!-- Include the Google Maps API library - required for embedding maps -->
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
 <script type="text/javascript">
 
+// The latitude and longitude of your business / place
+var position = [23.7658444, 90.3583606];
 
+function showGoogleMaps() {
 
+    var latLng = new google.maps.LatLng(position[0], position[1]);
 
+    var mapOptions = {
+        zoom: 14, // initialize zoom level - the max value is 21
+        streetViewControl: false, // hide the yellow Street View pegman
+        scaleControl: true, // allow users to zoom the Google Map
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        mapTypeControl: false,
+        center: latLng
+    };
+
+    map = new google.maps.Map(document.getElementById('googlemaps'),
+        mapOptions);
+
+    // Show the default red marker at the location
+    marker = new google.maps.Marker({
+        position: latLng,
+        map: map,
+        draggable: false,
+        animation: google.maps.Animation.DROP
+    });
+}
+
+google.maps.event.addDomListener(window, 'load', showGoogleMaps);
 </script>
 
 
