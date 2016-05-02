@@ -93,7 +93,7 @@ margin-bottom: 0px;
 
 .navbar-default .navbar-brand {
 	color: #000;
-	padding: 15px 10px;
+	padding: 15px 8px;
 	font-weight: bold;
 	font-family: Times;
 	font-size: 25px;
@@ -282,7 +282,16 @@ margin-bottom: 0px;
 	        animation: html 2s ease-out forwards;
 }
 
+@keyframes html {
+	0% {
+	    width: 0px;
+	}
 
+	100% {
+	    width: 80%;
+	}
+
+}
 
 @-webkit-keyframes html {
 	0% {
@@ -294,6 +303,8 @@ margin-bottom: 0px;
 	}
 
 }
+
+
 
 
 .css.start {
@@ -309,6 +320,17 @@ margin-bottom: 0px;
 
 
 @-webkit-keyframes css {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 80%;
+	}
+
+}
+
+@keyframes css {
 	0% {
 	    width: 0px;
 	}
@@ -343,6 +365,17 @@ margin-bottom: 0px;
 
 }
 
+@keyframes bootstrap {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 80%;
+	}
+
+}
+
 .javascript.start {
 	width: 0px;
 	background: #d6ba32;
@@ -366,6 +399,17 @@ margin-bottom: 0px;
 
 }
 
+@keyframes javascript {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 50%;
+	}
+
+}
+
 .jquery.start {
 	width: 0px;
 	background: #000;
@@ -379,6 +423,17 @@ margin-bottom: 0px;
 
 
 @-webkit-keyframes jquery {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 50%;
+	}
+
+}
+
+@keyframes jquery {
 	0% {
 	    width: 0px;
 	}
@@ -413,6 +468,16 @@ margin-bottom: 0px;
 
 }
 
+@keyframes angularjs {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 50%;
+	}
+
+}
 .asp.start {
 	width: 0px;
 	background: #41c1f2;
@@ -436,6 +501,17 @@ margin-bottom: 0px;
 
 }
 
+@keyframes asp {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 20%;
+	}
+
+}
+
 .graphics.start {
 	width: 0px;
 	background: #011838;
@@ -449,6 +525,17 @@ margin-bottom: 0px;
 
 
 @-webkit-keyframes graphics {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 60%;
+	}
+
+}
+
+@keyframes graphics {
 	0% {
 	    width: 0px;
 	}
