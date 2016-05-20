@@ -152,7 +152,7 @@
 }
 @media (min-width: 1200px) {
   .responsive-slider-parallax .slides-container ul li .slide-body {
-    height: 600px;
+    height: 700px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -180,6 +180,7 @@
   opacity: 0.6;
 }
 .responsive-slider-parallax .slider-control.left {
+  display: none;
   left: 10px;
   padding-left: 7px;
   border-radius: 6px;
@@ -189,6 +190,7 @@
   opacity: 1;
 }
 .responsive-slider-parallax .slider-control.right {
+  display: none;
   right: 10px;
   padding-right: 7px;
   border-radius: 6px;
