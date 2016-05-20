@@ -84,7 +84,7 @@ z-index: 99999;
 background-color: #ffffff;
 border: none;
 /*border-bottom: 5px solid #0a0a0a;*/
-box-shadow: 0px 5px 0px #666666;
+box-shadow: 0px 1px 0px #666;
 margin-bottom: 0px;
 
 
@@ -173,11 +173,11 @@ margin-bottom: 0px;
 .skill-container {
 	position: relative;
 	padding: 3% 0px;
-	background-color: #F3F0F0;
+	background-color: #fff;
 }
 
 .skill-header {
-	padding: 2% 10px;
+	padding: 4% 10px;
 	text-align: center;
 	font-size: 35px;
 }

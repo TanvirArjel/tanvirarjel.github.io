@@ -204,9 +204,9 @@
         r = this;
         this.stop();
         this.start();
-        this.$element.on('mouseover', function() {
-          return r.stop(false);
-        });
+        //this.$element.on('mouseover', function() {
+          //return r.stop(false);
+        //});
         return this.$element.on('mouseleave', function() {
           r.stop(false);
           return r.start();
