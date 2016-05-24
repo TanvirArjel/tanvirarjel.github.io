@@ -34,8 +34,8 @@ body {
 }
 
 .row {
-	margin-right: 0px;
-	margin-left: 0px;
+	margin-right: 0;
+	margin-left: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -135,7 +135,7 @@ margin-bottom: 0px;
 
 
 .about-me-container {
-	margin-to/p: 85px;
+	margin-top: 85px;
 	position: relative;
 	padding: 2% 0px;
 }
@@ -284,7 +284,7 @@ font-family: 'Oleo Script', cursive;
 
 
 
-.html.start {
+.html .start {
 	width: 0px;
 	background: #e44d26;
 	-webkit-animation: html 2s ease-out forwards;
@@ -319,7 +319,7 @@ font-family: 'Oleo Script', cursive;
 
 
 
-.css.start {
+.css .start {
 	width: 0px;
 	background: #0170ba;
 	-webkit-animation: css 2s ease-out forwards;
@@ -354,7 +354,7 @@ font-family: 'Oleo Script', cursive;
 }
 
 
-.bootstrap.start {
+.bootstrap .start {
 	width: 0px;
 	background: #5a3e82;
 	-webkit-animation: bootstrap 2s ease-out forwards;
@@ -388,7 +388,7 @@ font-family: 'Oleo Script', cursive;
 
 }
 
-.javascript.start {
+.javascript .start {
 	width: 0px;
 	background: #d6ba32;
 	-webkit-animation: javascript 2s ease-out forwards;
@@ -422,7 +422,7 @@ font-family: 'Oleo Script', cursive;
 
 }
 
-.jquery.start {
+.jquery .start {
 	width: 0px;
 	background: #000;
 	-webkit-animation: jquery 2s ease-out forwards;
@@ -457,7 +457,7 @@ font-family: 'Oleo Script', cursive;
 }
 
 
-.angularjs.start {
+.angularjs .start {
 	width: 0px;
 	background: #f50023;
 	-webkit-animation: angularjs 2s ease-out forwards;
@@ -490,7 +490,7 @@ font-family: 'Oleo Script', cursive;
 	}
 
 }
-.asp.start {
+.asp .start {
 	width: 0px;
 	background: #41c1f2;
 	-webkit-animation: asp 2s ease-out forwards;
@@ -524,7 +524,7 @@ font-family: 'Oleo Script', cursive;
 
 }
 
-.graphics.start {
+.graphics .start {
 	width: 0px;
 	background: #011838;
 	-webkit-animation: graphics 2s ease-out forwards;
