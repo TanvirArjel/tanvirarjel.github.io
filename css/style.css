@@ -179,7 +179,7 @@ font-family: 'Oleo Script', cursive;
 
 .skill-container {
 	position: relative;
-	padding: 3% 0px;
+	padding: 3% 0;
 	background-color: #fff;
 }
 
@@ -192,10 +192,10 @@ font-family: 'Oleo Script', cursive;
 }
 
 .skill-item-container1 {
-	padding-left: 0px;
+	padding-left: 0;
 }
 .skill-item-container2 {
-	padding-right: 0px;
+	padding-right: 0;
 
 }
 .bar {
@@ -222,7 +222,7 @@ font-family: 'Oleo Script', cursive;
 
 
 .bar h1 {
-	top: 0px;
+	top: 0;
 	float: left;
 	line-height: 60px;
 	font-size: 20px;
@@ -284,8 +284,16 @@ font-family: 'Oleo Script', cursive;
 
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.html.start {
+	width: 0;
+=======
+>>>>>>> ec7a310469a4ca261bf0c43410cf94cb7cc017d6
 .html .start {
 	width: 0px;
+>>>>>>> 928097ad3e42358d25a7ae168fafab1cda1fcda7
 	background: #e44d26;
 	-webkit-animation: html 2s ease-out forwards;
 	   -moz-animation: html 2s ease-out forwards;
@@ -294,20 +302,22 @@ font-family: 'Oleo Script', cursive;
 	        animation: html 2s ease-out forwards;
 }
 
-@keyframes html {
-	0% {
-	    width: 0px;
-	}
 
-	100% {
-	    width: 80%;
-	}
-
-}
 
 @-webkit-keyframes html {
 	0% {
-	    width: 0px;
+	    width: 0;
+	}
+
+	100% {
+	    width: 80%;
+	}
+
+}
+
+@keyframes html {
+	0% {
+	    width: 0;
 	}
 
 	100% {
@@ -319,8 +329,16 @@ font-family: 'Oleo Script', cursive;
 
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.css.start {
+	width: 0;
+=======
+>>>>>>> ec7a310469a4ca261bf0c43410cf94cb7cc017d6
 .css .start {
 	width: 0px;
+>>>>>>> 928097ad3e42358d25a7ae168fafab1cda1fcda7
 	background: #0170ba;
 	-webkit-animation: css 2s ease-out forwards;
 	   -moz-animation: css 2s ease-out forwards;
@@ -333,7 +351,7 @@ font-family: 'Oleo Script', cursive;
 
 @-webkit-keyframes css {
 	0% {
-	    width: 0px;
+	    width: 0;
 	}
 
 	100% {
@@ -344,7 +362,7 @@ font-family: 'Oleo Script', cursive;
 
 @keyframes css {
 	0% {
-	    width: 0px;
+	    width: 0;
 	}
 
 	100% {
@@ -354,8 +372,16 @@ font-family: 'Oleo Script', cursive;
 }
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.bootstrap.start {
+	width: 0;
+=======
+>>>>>>> ec7a310469a4ca261bf0c43410cf94cb7cc017d6
 .bootstrap .start {
 	width: 0px;
+>>>>>>> 928097ad3e42358d25a7ae168fafab1cda1fcda7
 	background: #5a3e82;
 	-webkit-animation: bootstrap 2s ease-out forwards;
 	   -moz-animation: bootstrap 2s ease-out forwards;
@@ -368,7 +394,7 @@ font-family: 'Oleo Script', cursive;
 
 @-webkit-keyframes bootstrap {
 	0% {
-	    width: 0px;
+	    width: 0;
 	}
 
 	100% {
@@ -379,7 +405,7 @@ font-family: 'Oleo Script', cursive;
 
 @keyframes bootstrap {
 	0% {
-	    width: 0px;
+	    width: 0;
 	}
 
 	100% {
@@ -388,8 +414,16 @@ font-family: 'Oleo Script', cursive;
 
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.javascript.start {
+	width: 0;
+=======
+>>>>>>> ec7a310469a4ca261bf0c43410cf94cb7cc017d6
 .javascript .start {
 	width: 0px;
+>>>>>>> 928097ad3e42358d25a7ae168fafab1cda1fcda7
 	background: #d6ba32;
 	-webkit-animation: javascript 2s ease-out forwards;
 	   -moz-animation: javascript 2s ease-out forwards;
@@ -402,7 +436,7 @@ font-family: 'Oleo Script', cursive;
 
 @-webkit-keyframes javascript {
 	0% {
-	    width: 0px;
+	    width: 0;
 	}
 
 	100% {
@@ -413,7 +447,7 @@ font-family: 'Oleo Script', cursive;
 
 @keyframes javascript {
 	0% {
-	    width: 0px;
+	    width: 0;
 	}
 
 	100% {
@@ -422,8 +456,16 @@ font-family: 'Oleo Script', cursive;
 
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.jquery.start {
+	width: 0;
+=======
+>>>>>>> ec7a310469a4ca261bf0c43410cf94cb7cc017d6
 .jquery .start {
 	width: 0px;
+>>>>>>> 928097ad3e42358d25a7ae168fafab1cda1fcda7
 	background: #000;
 	-webkit-animation: jquery 2s ease-out forwards;
 	   -moz-animation: jquery 2s ease-out forwards;
@@ -436,7 +478,7 @@ font-family: 'Oleo Script', cursive;
 
 @-webkit-keyframes jquery {
 	0% {
-	    width: 0px;
+	    width: 0;
 	}
 
 	100% {
@@ -447,7 +489,7 @@ font-family: 'Oleo Script', cursive;
 
 @keyframes jquery {
 	0% {
-	    width: 0px;
+	    width: 0;
 	}
 
 	100% {
@@ -457,8 +499,16 @@ font-family: 'Oleo Script', cursive;
 }
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.angularjs.start {
+	width: 0;
+=======
+>>>>>>> ec7a310469a4ca261bf0c43410cf94cb7cc017d6
 .angularjs .start {
 	width: 0px;
+>>>>>>> 928097ad3e42358d25a7ae168fafab1cda1fcda7
 	background: #f50023;
 	-webkit-animation: angularjs 2s ease-out forwards;
 	   -moz-animation: angularjs 2s ease-out forwards;
@@ -471,7 +521,7 @@ font-family: 'Oleo Script', cursive;
 
 @-webkit-keyframes angularjs {
 	0% {
-	    width: 0px;
+	    width: 0;
 	}
 
 	100% {
@@ -482,7 +532,7 @@ font-family: 'Oleo Script', cursive;
 
 @keyframes angularjs {
 	0% {
-	    width: 0px;
+	    width: 0;
 	}
 
 	100% {
@@ -490,8 +540,16 @@ font-family: 'Oleo Script', cursive;
 	}
 
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.asp.start {
+	width: 0;
+=======
+>>>>>>> ec7a310469a4ca261bf0c43410cf94cb7cc017d6
 .asp .start {
 	width: 0px;
+>>>>>>> 928097ad3e42358d25a7ae168fafab1cda1fcda7
 	background: #41c1f2;
 	-webkit-animation: asp 2s ease-out forwards;
 	   -moz-animation: asp 2s ease-out forwards;
@@ -504,7 +562,7 @@ font-family: 'Oleo Script', cursive;
 
 @-webkit-keyframes asp {
 	0% {
-	    width: 0px;
+	    width: 0;
 	}
 
 	100% {
@@ -524,8 +582,16 @@ font-family: 'Oleo Script', cursive;
 
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.graphics.start {
+	width: 0;
+=======
+>>>>>>> ec7a310469a4ca261bf0c43410cf94cb7cc017d6
 .graphics .start {
 	width: 0px;
+>>>>>>> 928097ad3e42358d25a7ae168fafab1cda1fcda7
 	background: #011838;
 	-webkit-animation: graphics 2s ease-out forwards;
 	   -moz-animation: graphics 2s ease-out forwards;
@@ -538,7 +604,7 @@ font-family: 'Oleo Script', cursive;
 
 @-webkit-keyframes graphics {
 	0% {
-	    width: 0px;
+	    width: 0;
 	}
 
 	100% {
@@ -549,7 +615,7 @@ font-family: 'Oleo Script', cursive;
 
 @keyframes graphics {
 	0% {
-	    width: 0px;
+	    width: 0;
 	}
 
 	100% {

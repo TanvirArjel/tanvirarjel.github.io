@@ -1,14 +1,3 @@
-// Javascript for smooth anchor scrolling
-// $(document).ready(function(){
-//     $('a').click(function(){
-//       $('html,body').animate({
-//           scrollTop: $( $.attr(this, 'href') ).offset().top - 85
-//       }, 1500);
-//       return false;
-//     });
-// });
-
-
 // Returns true if the specified element has been scrolled into the viewport.
 function isElementInViewport(elem) {
     var $elem = $(elem);
@@ -27,7 +16,7 @@ function isElementInViewport(elem) {
 
 // Check if it's time to start the animation.
 function checkAnimation() {
-    var $elem = $('.bar .html, .javascript, .css, .bootstrap, .jquery,.angularjs, .asp, .graphics');
+    var $elem = $('.bar .html, .css, .bootstrap, .javascript, .jquery, .angularjs, .asp, .graphics');
 
     // If the animation has already been started
     if ($elem.hasClass('start')) return;
@@ -42,4 +31,3 @@ function checkAnimation() {
 $(window).scroll(function(){
     checkAnimation();
 });
-
