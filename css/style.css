@@ -1,0 +1,665 @@
+/*################################################################
+
+  File Name: style.css
+  Template Name: Tanvir Ahmad Arjel Gitgub Website
+  Created By: Md.Tanvir Ahmad Arjel
+  
+  0) BODY
+  1) HOMEPAGE SLIDER
+  2) ABOUT ME
+  3) SKILSS AND EXPERTISE
+  
+  
+
+################################################################*/
+
+/*################################################################
+  0. BODY STYLING
+#################################################################*/
+@import url(https://fonts.googleapis.com/css?family=Courgette|Satisfy|Oleo+Script:400,700|Playball|Yellowtail|Damion);
+
+body {
+	font-family: Georgia, Arial, Sans-serif;
+	-webkit-font-kerning: auto;
+	-webkit-font-smoothing: antialiased;
+	background-color: #fff;
+	line-height: 1.6;
+}
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+
+	margin: 0;
+	padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 240px;
+        text-align: center;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -90px;
+    }
+}
+
+   .navbar {
+z-index: 99999;
+background-color: #ffffff;
+border: none;
+/*border-bottom: 5px solid #0a0a0a;*/
+box-shadow: 0px 1px 0px #d9d9d9;
+margin-bottom: 0px;
+
+
+   }
+
+
+.navbar-default .navbar-brand {
+	padding: 15px 8px;
+	font-weight: bold;
+	font-family: 'Oleo Script', cursive;
+	font-size: 27px;
+
+}
+.navbar-default .navbar-brand a {
+	color: #0a0a0a;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #666;
+    font-weight: 100;
+	font-size: 18px;
+    font-family: 'Oleo Script', cursive;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+/*    background-color: #FFFF00;*/
+    color: rgb(11, 151, 239);
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 50px;
+    height: 80px;
+}	        		        
+
+.navbar-toggle {
+	margin-top: 23px;
+} 
+
+/*################################################################
+  1. HOMEPAGE SLIDER STYLING
+#################################################################*/	
+
+
+/*################################################################
+  2.. ABOUT ME SECTION STYLING
+#################################################################*/
+
+
+.about-me-container {
+	margin-top: 85px;
+	position: relative;
+	padding: 2% 0px;
+}
+
+.about-image-container {
+	padding: 0% 0px;
+	padding-right: 15px;
+}
+
+.content-container {
+	padding: 6% 0px;
+}
+
+.content-container h1 {
+	text-align: center;
+	padding: 10px 0px;
+    font-family: 'Oleo Script', cursive;
+
+	font-size: 35px;
+}
+
+.content-container p {
+/*	font-family: Georgia, serif;*/
+font-family: 'Oleo Script', cursive;	
+/*    font-family: 'Damion', cursive;    */
+    font-size: 20px;
+	line-height: 1.6;
+	text-align: justify;
+    color: #0a0a0a;
+}
+
+.img-responsive {
+	margin: 0px auto;
+}
+
+
+
+/*################################################################
+  3.SKILLS AND EXPERTISE STYLING
+#################################################################*/
+
+.skill-container {
+	position: relative;
+	padding: 3% 0px;
+	background-color: #fff;
+}
+
+.skill-header {
+	padding: 4% 10px;
+	text-align: center;
+	font-size: 35px;
+    font-family: 'Oleo Script', cursive;
+
+}
+
+.skill-item-container1 {
+	padding-left: 0px;
+}
+.skill-item-container2 {
+	padding-right: 0px;
+
+}
+.bar {
+	height:60px;
+	background:#d9d9d9;
+	color:#000;
+	text-align:center;
+	width:100%;
+	margin-bottom: 40px;
+}
+
+.html, .css, .bootstrap,.javascript, .jquery, .angularjs, .asp, .graphics {
+	height:60px;
+	/*background:#aae0aa;*/
+    width:90%;
+    float: left;
+}
+
+.skill {
+	height: 60px;
+	width: 90%;
+	float: left;
+}
+
+
+.bar h1 {
+	top: 0px;
+	float: left;
+	line-height: 60px;
+	font-size: 20px;
+	padding-left: 10px;
+/*	font-weight: bold;*/
+	color: #fff;
+    font-family: 'Oleo Script', cursive;
+
+	
+}
+
+.bar span {
+	height: 40px;
+	width: 40px;
+	float: right;
+	/*position: absolute;*/
+	margin-top: 10px;
+	margin-right: 10px;
+	font-size: 18px;
+	/*background-color: red;*/
+	line-height: 40px;
+	color: #fff;
+	border-radius: 20px;
+	font-family: times;
+
+} 
+
+.html-percentage {
+	background-color: #e44d26;
+}
+
+.css-percentage {
+	background-color: #0170ba;
+}
+
+.bootstrap-percentage {
+	background-color: #5a3e82;
+}
+
+.javascript-percentage {
+	background-color: #d6ba32;
+}
+
+.jquery-percentage {
+	background-color: #000;
+}
+
+.angularjs-percentage {
+	background-color: #f50023;
+}
+
+.asp-percentage {
+	background-color: #41c1f2;
+}
+.graphics-percentage {
+	background-color: #011838;
+}
+
+
+
+
+.html .start {
+	width: 0px;
+	background: #e44d26;
+	-webkit-animation: html 2s ease-out forwards;
+	   -moz-animation: html 2s ease-out forwards;
+	    -ms-animation: html 2s ease-out forwards;
+	     -o-animation: html 2s ease-out forwards;
+	        animation: html 2s ease-out forwards;
+}
+
+@keyframes html {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 80%;
+	}
+
+}
+
+@-webkit-keyframes html {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 80%;
+	}
+
+}
+
+
+
+
+.css .start {
+	width: 0px;
+	background: #0170ba;
+	-webkit-animation: css 2s ease-out forwards;
+	   -moz-animation: css 2s ease-out forwards;
+	    -ms-animation: css 2s ease-out forwards;
+	     -o-animation: css 2s ease-out forwards;
+	        animation: css 2s ease-out forwards;
+}
+
+
+
+@-webkit-keyframes css {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 80%;
+	}
+
+}
+
+@keyframes css {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 80%;
+	}
+
+}
+
+
+.bootstrap .start {
+	width: 0px;
+	background: #5a3e82;
+	-webkit-animation: bootstrap 2s ease-out forwards;
+	   -moz-animation: bootstrap 2s ease-out forwards;
+	    -ms-animation: bootstrap 2s ease-out forwards;
+	     -o-animation: bootstrap 2s ease-out forwards;
+	        animation: bootstrap 2s ease-out forwards;
+}
+
+
+
+@-webkit-keyframes bootstrap {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 80%;
+	}
+
+}
+
+@keyframes bootstrap {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 80%;
+	}
+
+}
+
+.javascript .start {
+	width: 0px;
+	background: #d6ba32;
+	-webkit-animation: javascript 2s ease-out forwards;
+	   -moz-animation: javascript 2s ease-out forwards;
+	    -ms-animation: javascript 2s ease-out forwards;
+	     -o-animation: javascript 2s ease-out forwards;
+	        animation: javascript 2s ease-out forwards;
+}
+
+
+
+@-webkit-keyframes javascript {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 50%;
+	}
+
+}
+
+@keyframes javascript {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 50%;
+	}
+
+}
+
+.jquery .start {
+	width: 0px;
+	background: #000;
+	-webkit-animation: jquery 2s ease-out forwards;
+	   -moz-animation: jquery 2s ease-out forwards;
+	    -ms-animation: jquery 2s ease-out forwards;
+	     -o-animation: jquery 2s ease-out forwards;
+	        animation: jquery 2s ease-out forwards;
+}
+
+
+
+@-webkit-keyframes jquery {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 50%;
+	}
+
+}
+
+@keyframes jquery {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 50%;
+	}
+
+}
+
+
+.angularjs .start {
+	width: 0px;
+	background: #f50023;
+	-webkit-animation: angularjs 2s ease-out forwards;
+	   -moz-animation: angularjs 2s ease-out forwards;
+	    -ms-animation: angularjs 2s ease-out forwards;
+	     -o-animation: angularjs 2s ease-out forwards;
+	        animation: angularjs 2s ease-out forwards;
+}
+
+
+
+@-webkit-keyframes angularjs {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 50%;
+	}
+
+}
+
+@keyframes angularjs {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 50%;
+	}
+
+}
+.asp .start {
+	width: 0px;
+	background: #41c1f2;
+	-webkit-animation: asp 2s ease-out forwards;
+	   -moz-animation: asp 2s ease-out forwards;
+	    -ms-animation: asp 2s ease-out forwards;
+	     -o-animation: asp 2s ease-out forwards;
+	        animation: asp 2s ease-out forwards;
+}
+
+
+
+@-webkit-keyframes asp {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 30%;
+	}
+
+}
+
+@keyframes asp {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 30%;
+	}
+
+}
+
+.graphics .start {
+	width: 0px;
+	background: #011838;
+	-webkit-animation: graphics 2s ease-out forwards;
+	   -moz-animation: graphics 2s ease-out forwards;
+	    -ms-animation: graphics 2s ease-out forwards;
+	     -o-animation: graphics 2s ease-out forwards;
+	        animation: graphics 2s ease-out forwards;
+}
+
+
+
+@-webkit-keyframes graphics {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 60%;
+	}
+
+}
+
+@keyframes graphics {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 60%;
+	}
+
+}
+
+/*################################################################
+  3.SKILLS AND EXPERTISE STYLING
+#################################################################*/
+
+.gallary-section-header {
+	position: relative;
+	padding: 2% 0px;
+}
+.gallary-section-header h1 {
+	text-align: center;
+	padding: 15px 10px;
+font-family: 'Oleo Script', cursive;
+}
+
+/*################################################################
+  3.SKILLS AND EXPERTISE STYLING
+#################################################################*/
+.contact-header {
+	position: relative;
+	padding: 3% 0px;
+}
+.contact-header h1 {
+	text-align: center;
+	font-size: 35px;
+    font-family: 'Oleo Script', cursive;
+}
+
+.contact-section {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+
+	/*background-color: #ddd*/
+}
+
+#googlemaps { 
+   
+  width: 100%;
+  height: 100%;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  z-index:0; /* Set z-index to 0 as it will be on a layer below the contact form */
+}
+
+.contact-information {
+	padding: 20px;
+	position: relative;
+	width: 500px;
+	height: auto;
+	margin: 0px auto;
+	background-color: #fff;
+	top: 30%;
+
+}
+
+.contact-item-container {
+    width: 500px;
+    margin: 20px auto;
+    /*margin-top: 10px;*/
+}
+#first {
+    width: 100px;
+    float: left;
+    height: 48px;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 48px;
+}
+#second {
+    width: 360px;
+    float: left;
+    height: 48px;
+    background-color: green;
+    color: #d9d9d9;
+    line-height: 48px;
+    padding-left: 20px;
+    font-family: 'Oleo Script', cursive;
+    font-size: 20px;
+}
+#clear {
+    clear: both;
+}
+
+
+
+
+.footer {
+	position: relative;
+	background-color: #fff;
+    border-top: 1px solid #d9d9d9;
+}
+.copyright-text {
+    padding: 24px 0px;
+}
+
+.social-media {
+    margin-bottom: 0px;
+    padding: 15px 0px;
+}
+.social-media li {
+    display: inline;
+    padding: 0px 10px;
+}
