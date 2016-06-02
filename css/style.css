@@ -284,8 +284,13 @@ font-family: 'Oleo Script', cursive;
 
 
 
+<<<<<<< HEAD
 .html.start {
 	width: 0;
+=======
+.html .start {
+	width: 0px;
+>>>>>>> 928097ad3e42358d25a7ae168fafab1cda1fcda7
 	background: #e44d26;
 	-webkit-animation: html 2s ease-out forwards;
 	   -moz-animation: html 2s ease-out forwards;
@@ -321,8 +326,13 @@ font-family: 'Oleo Script', cursive;
 
 
 
+<<<<<<< HEAD
 .css.start {
 	width: 0;
+=======
+.css .start {
+	width: 0px;
+>>>>>>> 928097ad3e42358d25a7ae168fafab1cda1fcda7
 	background: #0170ba;
 	-webkit-animation: css 2s ease-out forwards;
 	   -moz-animation: css 2s ease-out forwards;
@@ -356,8 +366,13 @@ font-family: 'Oleo Script', cursive;
 }
 
 
+<<<<<<< HEAD
 .bootstrap.start {
 	width: 0;
+=======
+.bootstrap .start {
+	width: 0px;
+>>>>>>> 928097ad3e42358d25a7ae168fafab1cda1fcda7
 	background: #5a3e82;
 	-webkit-animation: bootstrap 2s ease-out forwards;
 	   -moz-animation: bootstrap 2s ease-out forwards;
@@ -390,8 +405,13 @@ font-family: 'Oleo Script', cursive;
 
 }
 
+<<<<<<< HEAD
 .javascript.start {
 	width: 0;
+=======
+.javascript .start {
+	width: 0px;
+>>>>>>> 928097ad3e42358d25a7ae168fafab1cda1fcda7
 	background: #d6ba32;
 	-webkit-animation: javascript 2s ease-out forwards;
 	   -moz-animation: javascript 2s ease-out forwards;
@@ -424,8 +444,13 @@ font-family: 'Oleo Script', cursive;
 
 }
 
+<<<<<<< HEAD
 .jquery.start {
 	width: 0;
+=======
+.jquery .start {
+	width: 0px;
+>>>>>>> 928097ad3e42358d25a7ae168fafab1cda1fcda7
 	background: #000;
 	-webkit-animation: jquery 2s ease-out forwards;
 	   -moz-animation: jquery 2s ease-out forwards;
@@ -459,8 +484,13 @@ font-family: 'Oleo Script', cursive;
 }
 
 
+<<<<<<< HEAD
 .angularjs.start {
 	width: 0;
+=======
+.angularjs .start {
+	width: 0px;
+>>>>>>> 928097ad3e42358d25a7ae168fafab1cda1fcda7
 	background: #f50023;
 	-webkit-animation: angularjs 2s ease-out forwards;
 	   -moz-animation: angularjs 2s ease-out forwards;
@@ -492,8 +522,13 @@ font-family: 'Oleo Script', cursive;
 	}
 
 }
+<<<<<<< HEAD
 .asp.start {
 	width: 0;
+=======
+.asp .start {
+	width: 0px;
+>>>>>>> 928097ad3e42358d25a7ae168fafab1cda1fcda7
 	background: #41c1f2;
 	-webkit-animation: asp 2s ease-out forwards;
 	   -moz-animation: asp 2s ease-out forwards;
@@ -526,8 +561,13 @@ font-family: 'Oleo Script', cursive;
 
 }
 
+<<<<<<< HEAD
 .graphics.start {
 	width: 0;
+=======
+.graphics .start {
+	width: 0px;
+>>>>>>> 928097ad3e42358d25a7ae168fafab1cda1fcda7
 	background: #011838;
 	-webkit-animation: graphics 2s ease-out forwards;
 	   -moz-animation: graphics 2s ease-out forwards;
