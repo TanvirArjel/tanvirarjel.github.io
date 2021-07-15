@@ -94,6 +94,12 @@ h6, .h6 {
   font-size: 1.5rem;
 }
 
+@media (max-width: 992px){
+  .subheading {
+    font-size: 1.25rem !important;
+  }
+}
+
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -196,4 +202,9 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.resume-section-content > .subheading {
+  color: #343a40;
+  font-weight: 700;
 }
